@@ -110,15 +110,18 @@ python src/generate_static_api.py           # regenerate static API JSON files
 
 ## COMET Integration
 
-PCRbase is the primary evidence base for PCR-related additions to the [COMET carbon ontology](https://nickgogerty.github.io/comet-ontology/). Proposed upstream additions:
+PCRbase is the primary evidence base for PCR-related additions to the [COMET carbon ontology](https://nickgogerty.github.io/comet-ontology/). The proposed terms are defined once in the shared **[comet-carbonsig](https://github.com/CarbonSigProductHub/comet-carbonsig)** repo (the `comet-pcr` extension), so `pcrbase` and `verifier-export` reference the same vocabulary. New terms use the `comet-pcr:` extension namespace — not `comet-pcf:` (COMET-owned) or the non-existent `comet-core:`:
 
-- `comet-pcf:PCRDocument` — structured, versioned PCR anchor
-- `comet-pcf:governedByPCR` — keystone link: ProductCarbonFootprint → PCRDocument
-- `comet-core:PCRProgramOperator` — administrative identity
-- `comet-pcf:DeclaredModule` — A1–D SKOS scheme
-- `comet-pcf:CutOffRule`, `:ReferenceServiceLife`, `:Scenario`
+- `comet-pcr:PCRDocument` — structured, versioned PCR anchor (reifies `comet-pcf:PCRReference`)
+- `comet-pcr:governedByPCR` — keystone link: `comet-pcf:ProductCarbonFootprint` → `comet-pcr:PCRDocument`
+- `comet-pcr:PCRProgramOperator` — administrative identity
+- `comet-pcr:DeclaredModule` — EN 15804 A1–D SKOS scheme
+- `comet-pcr:CutOffRule`, `:ReferenceServiceLife`, `:ContentDeclaration`, PEF `:CircularFootprintFormula`, `:EFImpactCategory`
 
-PRs open only after human review + evidence threshold (≥3 PCR occurrences).
+`src/map_comet.py` validates every COMET CURIE against the shared registry
+(`comet/comet-registry.json`, synced via `python comet/sync_registry.py`); `run()`
+aborts on an unknown CURIE. PRs into COMET open only after human review + evidence
+threshold (≥3 PCR occurrences).
 
 ---
 

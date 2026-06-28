@@ -46,6 +46,11 @@ def main():
         import coverage; coverage.main()
     if cmd in ("dashboard", "all"):
         import dashboard; dashboard.build()
+        import shutil, os
+        shutil.copy(os.path.join(os.path.dirname(__file__),"../data/exports/dashboard.html"),
+                    os.path.join(os.path.dirname(__file__),"../docs/dashboard.html"))
+    if cmd in ("api", "all"):
+        import generate_static_api; generate_static_api.main()
     if cmd in ("status", "all"):
         import status; status.main()
 
