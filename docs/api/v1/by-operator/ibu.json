@@ -1,0 +1,32 @@
+[
+  {
+    "pcr_id": "ibu-989b4e0ffec8",
+    "operator_id": "ibu",
+    "pcr_number": "IBU-19877",
+    "title": "IBU EPD (product declaration, not a PCR) \u2014 disambiguation test",
+    "pcr_type": "epd",
+    "method_family": "EN15804",
+    "sector": null,
+    "cpc_code": null,
+    "geography": null,
+    "version_count": "1",
+    "has_pdf": true,
+    "valid_until_latest": null,
+    "source_url_latest": "https://www.ibu-epd.com/en/published-epds/"
+  },
+  {
+    "pcr_id": "ibu-b172d636367d",
+    "operator_id": "ibu",
+    "pcr_number": "IBU-PartA-TODO",
+    "title": "IBU PCR Part A (general programme rules) \u2014 URL TODO (portal is JS-gated)",
+    "pcr_type": "pcr",
+    "method_family": "EN15804",
+    "sector": null,
+    "cpc_code": null,
+    "geography": null,
+    "version_count": "1",
+    "has_pdf": false,
+    "valid_until_latest": null,
+    "source_url_latest": "https://www.ibu-epd.com/en/published-epds/"
+  }
+]

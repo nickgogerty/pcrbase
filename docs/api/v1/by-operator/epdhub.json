@@ -1,0 +1,32 @@
+[
+  {
+    "pcr_id": "epdhub-088295d86656",
+    "operator_id": "epdhub",
+    "pcr_number": "EPD Hub General Programme Instructions (GPI) v1.",
+    "title": "EPD Hub General Programme Instructions (GPI) v1.3.1",
+    "pcr_type": "pcr",
+    "method_family": "EN15804",
+    "sector": null,
+    "cpc_code": null,
+    "geography": null,
+    "version_count": "1",
+    "has_pdf": true,
+    "valid_until_latest": null,
+    "source_url_latest": "https://www.epdhub.com/_files/ugd/199f85_ad5d3cd40eec418395f710788e41b6c0.pdf"
+  },
+  {
+    "pcr_id": "epdhub-85d666059190",
+    "operator_id": "epdhub",
+    "pcr_number": "EPD Hub Product Category Rules (PCR) v1.2.1",
+    "title": "EPD Hub Product Category Rules (PCR) v1.2.1",
+    "pcr_type": "pcr",
+    "method_family": "EN15804",
+    "sector": null,
+    "cpc_code": null,
+    "geography": null,
+    "version_count": "1",
+    "has_pdf": true,
+    "valid_until_latest": null,
+    "source_url_latest": "https://www.epdhub.com/_files/ugd/199f85_451db462020743c4b007603b67f3c807.pdf"
+  }
+]

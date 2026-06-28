@@ -1,0 +1,47 @@
+[
+  {
+    "pcr_id": "bre-039374b870bd",
+    "operator_id": "bre",
+    "pcr_number": "BRE EN 15804 PCR PN514 issue 0.0 (construction p",
+    "title": "BRE EN 15804 PCR PN514 issue 0.0 (construction products)",
+    "pcr_type": "pcr",
+    "method_family": "EN15804",
+    "sector": null,
+    "cpc_code": null,
+    "geography": null,
+    "version_count": "1",
+    "has_pdf": true,
+    "valid_until_latest": null,
+    "source_url_latest": "https://www.greenbooklive.com/filelibrary/EN_15804/BRE_EN_15804_PCR.PN514.pdf"
+  },
+  {
+    "pcr_id": "bre-a744592bbc73",
+    "operator_id": "bre",
+    "pcr_number": "BRE Global EN 15804 EPD Scheme Document SD207 re",
+    "title": "BRE Global EN 15804 EPD Scheme Document SD207 rev3",
+    "pcr_type": "pcr",
+    "method_family": "EN15804",
+    "sector": null,
+    "cpc_code": null,
+    "geography": null,
+    "version_count": "1",
+    "has_pdf": true,
+    "valid_until_latest": null,
+    "source_url_latest": "https://www.greenbooklive.com/filelibrary/EN_15804/Scheme-Document-SD207.rev3.pdf"
+  },
+  {
+    "pcr_id": "bre-ae0adff70ffe",
+    "operator_id": "bre",
+    "pcr_number": "BRE EN 15804 PCR PN514 rev 0.1 (construction pro",
+    "title": "BRE EN 15804 PCR PN514 rev 0.1 (construction products)",
+    "pcr_type": "pcr",
+    "method_family": "EN15804",
+    "sector": null,
+    "cpc_code": null,
+    "geography": null,
+    "version_count": "1",
+    "has_pdf": true,
+    "valid_until_latest": null,
+    "source_url_latest": "https://files.bregroup.com/bre-co-uk-file-library-copy/filelibrary/Materials/BRE-EN-15804-PCR-PN514.rev-0.1.pdf"
+  }
+]

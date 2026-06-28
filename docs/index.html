@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PCRbase — Machine-Readable Product Category Rules</title>
+  <meta name="description" content="290 PCRs, 4,409 extracted requirements, mapped to the COMET carbon ontology. The open, structured database of Product Category Rules for EPDs.">
+  <meta property="og:title" content="PCRbase — Machine-Readable Product Category Rules">
+  <meta property="og:description" content="290 PCRs, 4,409 requirements, 7 operators. Open data for the EPD/LCA community.">
+  <style>
+    :root{--bg:#0b1120;--card:#131c2e;--card2:#0f1727;--bd:#1e293b;--tx:#e2e8f0;--mut:#94a3b8;--ac:#2dd4bf;--ac2:#34d399}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{background:var(--bg);color:var(--tx);font:15px/1.6 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif}
+    a{color:var(--ac);text-decoration:none}
+    a:hover{text-decoration:underline}
+
+    /* NAV */
+    nav{background:#0d1527;border-bottom:1px solid var(--bd);padding:0 28px;display:flex;align-items:center;justify-content:space-between;height:52px;position:sticky;top:0;z-index:100}
+    .nav-brand{font-size:18px;font-weight:700;letter-spacing:-.5px}
+    .nav-brand span{color:var(--ac)}
+    .nav-links{display:flex;gap:24px;font-size:13.5px}
+    .nav-links a{color:var(--mut)}
+    .nav-links a:hover{color:var(--tx)}
+
+    /* HERO */
+    .hero{max-width:860px;margin:64px auto 40px;padding:0 28px;text-align:center}
+    .hero h1{font-size:42px;font-weight:800;letter-spacing:-1.5px;line-height:1.15;margin-bottom:16px}
+    .hero h1 span{color:var(--ac)}
+    .hero p{font-size:17px;color:var(--mut);max-width:640px;margin:0 auto 28px}
+    .hero-btns{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+    .btn{display:inline-block;padding:10px 22px;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;transition:opacity .15s}
+    .btn-primary{background:var(--ac);color:#0b1120}
+    .btn-secondary{background:var(--card);border:1px solid var(--bd);color:var(--tx)}
+    .btn:hover{opacity:.85}
+
+    /* STATS BAR */
+    .stats-bar{display:flex;justify-content:center;gap:0;flex-wrap:wrap;border:1px solid var(--bd);border-radius:14px;max-width:860px;margin:0 auto 52px;overflow:hidden}
+    .stat{flex:1;min-width:140px;padding:20px 24px;border-right:1px solid var(--bd);text-align:center}
+    .stat:last-child{border-right:none}
+    .stat .n{font-size:32px;font-weight:800;letter-spacing:-1px;color:var(--ac)}
+    .stat .l{font-size:12px;color:var(--mut);margin-top:2px}
+
+    /* SECTIONS */
+    .wrap{max-width:1080px;margin:0 auto;padding:0 28px 80px}
+    .section-title{font-size:22px;font-weight:700;margin:52px 0 18px;letter-spacing:-.4px}
+    .section-title span{color:var(--mut);font-weight:400;font-size:15px}
+
+    /* PCR FINDER */
+    .finder{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:24px;margin-bottom:40px}
+    .finder h2{font-size:16px;font-weight:600;margin-bottom:16px}
+    .finder-controls{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:16px}
+    .finder-controls input, .finder-controls select{background:var(--card2);border:1px solid var(--bd);color:var(--tx);padding:8px 12px;border-radius:8px;font-size:13.5px;outline:none}
+    .finder-controls input{flex:1;min-width:200px}
+    .finder-controls input:focus, .finder-controls select:focus{border-color:var(--ac)}
+    #results{font-size:13px}
+    .result-row{display:flex;align-items:flex-start;gap:10px;padding:9px 0;border-bottom:1px solid #1e293b44;line-height:1.4}
+    .result-row:last-child{border-bottom:none}
+    .op-badge{background:#1e293b;color:var(--mut);font-size:11px;padding:2px 7px;border-radius:6px;white-space:nowrap;flex-shrink:0;margin-top:2px}
+    .r-title{color:var(--tx);flex:1}
+    .r-meta{color:var(--mut);font-size:11.5px;flex-shrink:0;text-align:right;min-width:90px}
+    .r-type{font-size:10px;padding:2px 6px;border-radius:4px;margin-left:5px}
+    .type-pcr{background:#064e3b;color:#6ee7b7}
+    .type-cpcr{background:#1e3a5f;color:#93c5fd}
+    .type-pefcr{background:#3b2f1e;color:#fcd34d}
+    .type-subpcr{background:#2d1f3f;color:#c4b5fd}
+    .no-results{color:var(--mut);padding:16px 0}
+    .loading{color:var(--mut);font-style:italic}
+
+    /* API DOCS */
+    .api-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:14px}
+    .api-card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:18px}
+    .api-card h3{font-size:13.5px;font-weight:600;margin-bottom:6px}
+    .api-card p{font-size:12.5px;color:var(--mut);margin-bottom:10px}
+    .api-card code{font-family:ui-monospace,Menlo,monospace;font-size:11.5px;color:var(--ac);background:#0f1727;padding:2px 6px;border-radius:4px;display:block;word-break:break-all}
+
+    /* DOWNLOAD */
+    .download-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:14px}
+    .dl-card{background:var(--card);border:1px solid var(--bd);border-radius:12px;padding:18px;display:flex;flex-direction:column;gap:8px}
+    .dl-card h3{font-size:14px;font-weight:600}
+    .dl-card p{font-size:12.5px;color:var(--mut);flex:1}
+    .dl-card .btn{font-size:12.5px;padding:7px 14px;text-align:center}
+
+    /* COMET SECTION */
+    .comet-box{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:28px;display:flex;gap:28px;flex-wrap:wrap}
+    .comet-box .comet-text{flex:1;min-width:260px}
+    .comet-box .comet-text h2{font-size:18px;font-weight:700;margin-bottom:10px}
+    .comet-box .comet-text p{color:var(--mut);font-size:14px;margin-bottom:12px}
+    .comet-stats{display:grid;grid-template-columns:1fr 1fr;gap:10px;min-width:200px}
+    .cm-stat{background:var(--card2);border-radius:10px;padding:12px 14px;text-align:center}
+    .cm-stat .n{font-size:24px;font-weight:800;color:var(--ac)}
+    .cm-stat .l{font-size:11px;color:var(--mut);margin-top:2px}
+
+    /* FOOTER */
+    footer{border-top:1px solid var(--bd);padding:28px;text-align:center;color:var(--mut);font-size:12.5px}
+    footer a{color:var(--mut)}
+
+    @media(max-width:600px){.hero h1{font-size:28px}.stat{min-width:50%}.nav-links{display:none}}
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-brand">PCR<span>base</span></div>
+  <div class="nav-links">
+    <a href="#finder">PCR Finder</a>
+    <a href="#data">Data &amp; API</a>
+    <a href="#comet">COMET</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="https://github.com/nickgogerty/pcrbase" target="_blank">GitHub ↗</a>
+  </div>
+</nav>
+
+<div style="max-width:1080px;margin:0 auto;padding:0 28px">
+  <div class="hero">
+    <h1>Every <span>Product Category Rule</span>, structured and open.</h1>
+    <p>PCRbase is the world's first machine-readable inventory of PCRs — the governing documents for Environmental Product Declarations (EPDs). Open data. Semantic mapping. Built for the LCA community.</p>
+    <div class="hero-btns">
+      <a href="#finder" class="btn btn-primary">Find a PCR →</a>
+      <a href="#data" class="btn btn-secondary">Download Data</a>
+      <a href="https://github.com/nickgogerty/pcrbase" class="btn btn-secondary" target="_blank">View on GitHub</a>
+    </div>
+  </div>
+
+  <div class="stats-bar" id="stats-bar">
+    <div class="stat"><div class="n" id="s-pcrs">—</div><div class="l">PCRs inventoried</div></div>
+    <div class="stat"><div class="n" id="s-ops">—</div><div class="l">program operators</div></div>
+    <div class="stat"><div class="n" id="s-pdfs">—</div><div class="l">source PDFs</div></div>
+    <div class="stat"><div class="n" id="s-reqs">—</div><div class="l">requirements extracted</div></div>
+    <div class="stat"><div class="n" id="s-methods">3</div><div class="l">method families</div></div>
+  </div>
+</div>
+
+<div class="wrap">
+
+  <!-- PCR FINDER -->
+  <div id="finder">
+    <div class="section-title">PCR Finder <span>— search 290 PCRs by title, operator, method, or CPC code</span></div>
+    <div class="finder">
+      <div class="finder-controls">
+        <input type="text" id="q" placeholder="Search title, CPC code, operator…" oninput="search()">
+        <select id="f-method" onchange="search()">
+          <option value="">All methods</option>
+          <option value="ISO14067">ISO 14067</option>
+          <option value="EN15804">EN 15804</option>
+          <option value="PEF">EU PEF</option>
+        </select>
+        <select id="f-operator" onchange="search()">
+          <option value="">All operators</option>
+          <option value="environdec">EnvironDec</option>
+          <option value="epd-norge">EPD Norge</option>
+          <option value="eu-ef">EU EF / PEFCR</option>
+          <option value="us-epd">US EPD</option>
+          <option value="bre">BRE</option>
+          <option value="epdhub">EPD Hub</option>
+          <option value="ibu">IBU</option>
+        </select>
+        <select id="f-type" onchange="search()">
+          <option value="">All types</option>
+          <option value="pcr">PCR</option>
+          <option value="cpcr">c-PCR</option>
+          <option value="pefcr">PEFCR</option>
+          <option value="subpcr">Sub-PCR</option>
+        </select>
+      </div>
+      <div id="results"><div class="loading">Loading PCR index…</div></div>
+      <div id="result-count" style="margin-top:10px;font-size:12px;color:var(--mut)"></div>
+    </div>
+  </div>
+
+  <!-- DATA & API -->
+  <div id="data">
+    <div class="section-title">Data Downloads <span>— open, versioned, quarterly updated</span></div>
+    <div class="download-grid" style="margin-bottom:36px">
+      <div class="dl-card">
+        <h3>📦 PCRs — JSON</h3>
+        <p>All 290 PCRs with metadata, operator, method family, version dates, and PDF availability.</p>
+        <a href="api/v1/pcrs.json" class="btn btn-secondary" download>Download pcrs.json</a>
+      </div>
+      <div class="dl-card">
+        <h3>🔗 RDF / Turtle</h3>
+        <p>COMET-aligned Turtle export. 8,370+ triples, one named graph per PCR version.</p>
+        <a href="pcrbase.ttl" class="btn btn-secondary" download>Download pcrbase.ttl</a>
+      </div>
+      <div class="dl-card">
+        <h3>🔗 JSON-LD</h3>
+        <p>JSON-LD with COMET @context. Drop into any linked-data pipeline.</p>
+        <a href="pcrbase.jsonld" class="btn btn-secondary" download>Download pcrbase.jsonld</a>
+      </div>
+      <div class="dl-card">
+        <h3>📊 Coverage Stats</h3>
+        <p>Operator-level coverage, extraction confidence, mapping completeness — machine-readable.</p>
+        <a href="api/v1/stats.json" class="btn btn-secondary" download>Download stats.json</a>
+      </div>
+    </div>
+
+    <div class="section-title">Static API <span>— no key, no server, just fetch</span></div>
+    <div class="api-grid">
+      <div class="api-card">
+        <h3>All PCRs</h3>
+        <p>Complete inventory, all fields.</p>
+        <code>GET /api/v1/pcrs.json</code>
+      </div>
+      <div class="api-card">
+        <h3>By Method</h3>
+        <p>Filter by ISO 14067, EN 15804, or EU PEF.</p>
+        <code>GET /api/v1/by-method/iso14067.json</code>
+      </div>
+      <div class="api-card">
+        <h3>By Operator</h3>
+        <p>Per-operator PCR listings.</p>
+        <code>GET /api/v1/by-operator/environdec.json</code>
+      </div>
+      <div class="api-card">
+        <h3>Operators</h3>
+        <p>All program operators with counts.</p>
+        <code>GET /api/v1/operators.json</code>
+      </div>
+      <div class="api-card">
+        <h3>Search Index</h3>
+        <p>Lightweight token index for client-side search.</p>
+        <code>GET /api/v1/search-index.json</code>
+      </div>
+      <div class="api-card">
+        <h3>Clause Summary</h3>
+        <p>Requirement clause groups and key frequencies.</p>
+        <code>GET /api/v1/requirements/clause-summary.json</code>
+      </div>
+    </div>
+    <p style="margin-top:16px;font-size:13px;color:var(--mut)">All endpoints are static JSON files served from GitHub Pages. No rate limits. CORS-open. Updated quarterly.</p>
+  </div>
+
+  <!-- COMET -->
+  <div id="comet">
+    <div class="section-title">COMET Ontology Mapping <span>— semantic layer for carbon accounting</span></div>
+    <div class="comet-box">
+      <div class="comet-text">
+        <h2>PCRbase → COMET</h2>
+        <p>Every PCR requirement clause is mapped to the <a href="https://nickgogerty.github.io/comet-ontology/" target="_blank">COMET carbon ontology</a> — a structured vocabulary for carbon footprints, LCA methods, and supply chain data. PCRbase is the primary evidence base for COMET's PCR-related classes.</p>
+        <p>Mapping types: <strong>exact</strong> (existing COMET class/property), <strong>extended</strong> (COMET reified with PCR context), <strong>lossy</strong> (approximate fit), <strong>unmapped</strong> (evidence queue for new upstream PRs).</p>
+        <a href="https://nickgogerty.github.io/comet-ontology/" class="btn btn-secondary" style="font-size:13px" target="_blank">View COMET Ontology ↗</a>
+      </div>
+      <div class="comet-stats" id="comet-stats">
+        <div class="cm-stat"><div class="n">—</div><div class="l">exact mappings</div></div>
+        <div class="cm-stat"><div class="n">—</div><div class="l">extended mappings</div></div>
+        <div class="cm-stat"><div class="n">—</div><div class="l">lossy mappings</div></div>
+        <div class="cm-stat"><div class="n">—</div><div class="l">unmapped (PR queue)</div></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- EPD VERIFIER -->
+  <div id="verify" style="margin-top:52px">
+    <div class="section-title">EPD Compliance Checker <span>— coming soon</span></div>
+    <div class="finder" style="text-align:center;padding:40px">
+      <div style="font-size:32px;margin-bottom:12px">🔬</div>
+      <h2 style="font-size:18px;margin-bottom:10px">Check your EPD against its PCR</h2>
+      <p style="color:var(--mut);max-width:520px;margin:0 auto 20px;font-size:14px">Paste an EPD (ILCD XML / JSON), upload a PDF, or fill a form — we'll check declared modules, allocation methods, and boundary scope against the governing PCR's requirements.</p>
+      <div style="display:inline-block;background:#1e293b;border:1px dashed var(--bd);border-radius:10px;padding:16px 28px;color:var(--mut);font-size:13px">
+        Powered by PCRbase requirements + Claude AI extraction · Launching Q3 2026
+      </div>
+      <div style="margin-top:16px">
+        <a href="mailto:nickgogerty@gmail.com?subject=PCRbase%20compliance%20checker%20early%20access" class="btn btn-secondary" style="font-size:13px">Request early access →</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ABOUT -->
+  <div style="margin-top:52px;background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:28px;display:flex;gap:28px;flex-wrap:wrap">
+    <div style="flex:1;min-width:260px">
+      <div style="font-size:18px;font-weight:700;margin-bottom:10px">About PCRbase</div>
+      <p style="color:var(--mut);font-size:14px;margin-bottom:12px">PCRbase is an open-source project by <a href="https://github.com/nickgogerty">Nick Gogerty</a>. It maintains a versioned, machine-readable inventory of Product Category Rules — the normative documents governing EPD declarations under ISO 14025, EN 15804, and EU PEF.</p>
+      <p style="color:var(--mut);font-size:14px">The pipeline: DuckDB system-of-record → LLM extraction (Claude Haiku) with span-verification gates → COMET ontology mapping → generated RDF/JSON-LD. Quarterly re-harvest. Operator contributions welcome.</p>
+    </div>
+    <div style="min-width:200px;display:flex;flex-direction:column;gap:10px">
+      <a href="https://github.com/nickgogerty/pcrbase" class="btn btn-secondary" style="text-align:center" target="_blank">⭐ Star on GitHub</a>
+      <a href="dashboard.html" class="btn btn-secondary" style="text-align:center">📊 Full Dashboard</a>
+      <a href="report-2026.html" class="btn btn-secondary" style="text-align:center">📄 State of PCR Methods 2026</a>
+      <a href="mailto:nickgogerty@gmail.com?subject=PCRbase%20design%20partner" class="btn btn-primary" style="text-align:center">💬 Partner / Contact</a>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  PCRbase · Open data for the EPD/LCA community ·
+  <a href="https://github.com/nickgogerty/pcrbase">GitHub</a> ·
+  <a href="https://nickgogerty.github.io/comet-ontology/">COMET Ontology</a> ·
+  Data: <a href="api/v1/pcrs.json">pcrs.json</a> · <a href="pcrbase.ttl">Turtle</a> · <a href="pcrbase.jsonld">JSON-LD</a>
+  <br><span id="footer-ts" style="margin-top:4px;display:block"></span>
+</footer>
+
+<script>
+let INDEX = [];
+let STATS = {};
+
+async function loadData() {
+  try {
+    const [idxRes, statsRes] = await Promise.all([
+      fetch('api/v1/search-index.json'),
+      fetch('api/v1/stats.json')
+    ]);
+    INDEX = await idxRes.json();
+    STATS = await statsRes.json();
+    document.getElementById('s-pcrs').textContent = STATS.total_pcrs || INDEX.length;
+    document.getElementById('s-ops').textContent = STATS.total_operators || '—';
+    document.getElementById('s-pdfs').textContent = STATS.total_pdfs || '—';
+    document.getElementById('s-reqs').textContent = (STATS.total_requirements || '—').toLocaleString ? (STATS.total_requirements||'').toLocaleString() : STATS.total_requirements;
+    // COMET stats
+    if (STATS.comet_mapping) {
+      const cm = STATS.comet_mapping;
+      const els = document.querySelectorAll('#comet-stats .cm-stat .n');
+      if (els.length === 4) {
+        els[0].textContent = cm.exact || '—';
+        els[1].textContent = cm.extended || '—';
+        els[2].textContent = cm.lossy || '—';
+        els[3].textContent = cm.unmapped || '—';
+      }
+    }
+    search();
+    // footer ts
+    if (STATS.generated_at) {
+      document.getElementById('footer-ts').textContent = 'Data last updated: ' + new Date(STATS.generated_at).toLocaleDateString('en-US',{year:'numeric',month:'long',day:'numeric'});
+    }
+  } catch(e) {
+    document.getElementById('results').innerHTML = '<div class="no-results">⚠ Could not load PCR index. <a href="api/v1/pcrs.json">Download directly</a>.</div>';
+  }
+}
+
+function typeClass(t) {
+  return 'r-type type-' + (t||'pcr');
+}
+
+function search() {
+  const q = document.getElementById('q').value.trim().toLowerCase();
+  const fm = document.getElementById('f-method').value;
+  const fo = document.getElementById('f-operator').value;
+  const ft = document.getElementById('f-type').value;
+
+  let results = INDEX.filter(r => {
+    if (fm && r.method_family !== fm) return false;
+    if (fo && r.operator_id !== fo) return false;
+    if (ft && r.pcr_type !== ft) return false;
+    if (q) return (r.tokens||'').includes(q);
+    return true;
+  });
+
+  const show = results.slice(0, 30);
+  const container = document.getElementById('results');
+  const countEl = document.getElementById('result-count');
+
+  if (!results.length) {
+    container.innerHTML = '<div class="no-results">No PCRs match your query.</div>';
+    countEl.textContent = '';
+    return;
+  }
+
+  countEl.textContent = results.length + ' PCR' + (results.length !== 1 ? 's' : '') + (results.length > 30 ? ' (showing first 30)' : '');
+  container.innerHTML = show.map(r => `
+    <div class="result-row">
+      <span class="op-badge">${r.operator_id}</span>
+      <span class="r-title">
+        ${r.source_url ? `<a href="${r.source_url}" target="_blank">${r.title}</a>` : r.title}
+        <span class="${typeClass(r.pcr_type)}">${r.pcr_type||'pcr'}</span>
+      </span>
+      <span class="r-meta">${r.method_family||''}</span>
+    </div>`).join('');
+}
+
+loadData();
+</script>
+</body>
+</html>

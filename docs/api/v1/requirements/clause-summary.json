@@ -1,0 +1,304 @@
+[
+  {
+    "clause_group": "id",
+    "count": 2221,
+    "top_keys": [
+      {
+        "clause_key": "id.standard_basis",
+        "count": 242
+      },
+      {
+        "clause_key": "id.version",
+        "count": 241
+      },
+      {
+        "clause_key": "id.valid_until",
+        "count": 238
+      },
+      {
+        "clause_key": "id.program",
+        "count": 226
+      },
+      {
+        "clause_key": "id.pub_date",
+        "count": 223
+      }
+    ]
+  },
+  {
+    "clause_group": "scope",
+    "count": 615,
+    "top_keys": [
+      {
+        "clause_key": "scope.product_category",
+        "count": 226
+      },
+      {
+        "clause_key": "scope.inclusions",
+        "count": 182
+      },
+      {
+        "clause_key": "scope.exclusions",
+        "count": 109
+      },
+      {
+        "clause_key": "scope.target_audience",
+        "count": 34
+      },
+      {
+        "clause_key": "scope.comparability",
+        "count": 33
+      }
+    ]
+  },
+  {
+    "clause_group": "boundary",
+    "count": 347,
+    "top_keys": [
+      {
+        "clause_key": "boundary.type",
+        "count": 171
+      },
+      {
+        "clause_key": "boundary.modules_declared",
+        "count": 91
+      },
+      {
+        "clause_key": "boundary.cut_off_desc",
+        "count": 55
+      },
+      {
+        "clause_key": "boundary.unit_processes",
+        "count": 30
+      }
+    ]
+  },
+  {
+    "clause_group": "unit",
+    "count": 339,
+    "top_keys": [
+      {
+        "clause_key": "unit.type",
+        "count": 161
+      },
+      {
+        "clause_key": "unit.value",
+        "count": 132
+      },
+      {
+        "clause_key": "unit.reference_flow",
+        "count": 36
+      },
+      {
+        "clause_key": "unit.mass_reference",
+        "count": 5
+      },
+      {
+        "clause_key": "unit.conversion",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "clause_group": "report",
+    "count": 287,
+    "top_keys": [
+      {
+        "clause_key": "report.validity_period",
+        "count": 136
+      },
+      {
+        "clause_key": "report.verification_type",
+        "count": 78
+      },
+      {
+        "clause_key": "report.review_panel",
+        "count": 45
+      },
+      {
+        "clause_key": "report.layout",
+        "count": 27
+      },
+      {
+        "clause_key": "report.digital_format",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "clause_group": "dq",
+    "count": 102,
+    "top_keys": [
+      {
+        "clause_key": "dq.primary_share",
+        "count": 42
+      },
+      {
+        "clause_key": "dq.scoring",
+        "count": 37
+      },
+      {
+        "clause_key": "dq.background_db",
+        "count": 12
+      },
+      {
+        "clause_key": "dq.temporal",
+        "count": 5
+      },
+      {
+        "clause_key": "dq.geographical",
+        "count": 4
+      }
+    ]
+  },
+  {
+    "clause_group": "scenario",
+    "count": 94,
+    "top_keys": [
+      {
+        "clause_key": "scenario.rsl",
+        "count": 70
+      },
+      {
+        "clause_key": "scenario.eol",
+        "count": 10
+      },
+      {
+        "clause_key": "scenario.use",
+        "count": 9
+      },
+      {
+        "clause_key": "scenario.transport",
+        "count": 5
+      }
+    ]
+  },
+  {
+    "clause_group": "lcia",
+    "count": 93,
+    "top_keys": [
+      {
+        "clause_key": "lcia.indicator_set",
+        "count": 51
+      },
+      {
+        "clause_key": "lcia.biogenic",
+        "count": 20
+      },
+      {
+        "clause_key": "lcia.ef_indicators",
+        "count": 10
+      },
+      {
+        "clause_key": "lcia.gwp_method",
+        "count": 9
+      },
+      {
+        "clause_key": "lcia.inventory_flows",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "clause_group": "modules",
+    "count": 93,
+    "top_keys": [
+      {
+        "clause_key": "modules.A1A3",
+        "count": 22
+      },
+      {
+        "clause_key": "modules.A4A5",
+        "count": 21
+      },
+      {
+        "clause_key": "modules.C1C4",
+        "count": 18
+      },
+      {
+        "clause_key": "modules.B1B7",
+        "count": 16
+      },
+      {
+        "clause_key": "modules.D",
+        "count": 16
+      }
+    ]
+  },
+  {
+    "clause_group": "content",
+    "count": 77,
+    "top_keys": [
+      {
+        "clause_key": "content.declaration",
+        "count": 34
+      },
+      {
+        "clause_key": "content.substances",
+        "count": 29
+      },
+      {
+        "clause_key": "content.biogenic_content",
+        "count": 7
+      },
+      {
+        "clause_key": "content.additional",
+        "count": 7
+      }
+    ]
+  },
+  {
+    "clause_group": "alloc",
+    "count": 70,
+    "top_keys": [
+      {
+        "clause_key": "alloc.coproduct",
+        "count": 37
+      },
+      {
+        "clause_key": "alloc.recycling",
+        "count": 18
+      },
+      {
+        "clause_key": "alloc.cff",
+        "count": 13
+      },
+      {
+        "clause_key": "alloc.multifunction",
+        "count": 2
+      }
+    ]
+  },
+  {
+    "clause_group": "cutoff",
+    "count": 69,
+    "top_keys": [
+      {
+        "clause_key": "cutoff.mass",
+        "count": 46
+      },
+      {
+        "clause_key": "cutoff.completeness",
+        "count": 20
+      },
+      {
+        "clause_key": "cutoff.energy",
+        "count": 2
+      },
+      {
+        "clause_key": "cutoff.environmental",
+        "count": 1
+      }
+    ]
+  },
+  {
+    "clause_group": "unclassified",
+    "count": 2,
+    "top_keys": [
+      {
+        "clause_key": "unclassified",
+        "count": 2
+      }
+    ]
+  }
+]

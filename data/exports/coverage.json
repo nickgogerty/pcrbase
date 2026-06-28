@@ -1,0 +1,323 @@
+{
+  "generated": "2026-06-18 14:19",
+  "ingested_total": 290,
+  "ingested_by_op": {
+    "environdec": 227,
+    "epd-norge": 22,
+    "epdhub": 2,
+    "eu-ef": 22,
+    "ibu": 2,
+    "us-epd": 12,
+    "bre": 3
+  },
+  "extracted_docs": 246,
+  "universe_low": 1122,
+  "universe_high": 2050,
+  "universe_mid": 1586,
+  "enumerated_hard": 307,
+  "coverage_global_pct_mid": 18.3,
+  "coverage_global_pct_range": [
+    14.1,
+    25.8
+  ],
+  "coverage_of_enumerated_pct": 94.5,
+  "operators_touched": 7,
+  "operators_universe": 17,
+  "remaining_pcrs": 1296,
+  "universe_statistical": {
+    "trials": 100000,
+    "mean": 1569,
+    "p5": 1467,
+    "p25": 1526,
+    "p50": 1569,
+    "p75": 1611,
+    "p95": 1672,
+    "method": "sum of per-segment triangular(low, mode, high), independent"
+  },
+  "english_share_pct": 56.0,
+  "construction_share_pct": 59.0,
+  "by_language": [
+    {
+      "key": "EN",
+      "universe_mid": 866,
+      "ingested": 266.0,
+      "coverage_pct": 30.7
+    },
+    {
+      "key": "KO",
+      "universe_mid": 175,
+      "ingested": 0.0,
+      "coverage_pct": 0.0
+    },
+    {
+      "key": "JA",
+      "universe_mid": 175,
+      "ingested": 0.0,
+      "coverage_pct": 0.0
+    },
+    {
+      "key": "Other EU",
+      "universe_mid": 160,
+      "ingested": 0.0,
+      "coverage_pct": 0.0
+    },
+    {
+      "key": "ES/PT",
+      "universe_mid": 75,
+      "ingested": 0.0,
+      "coverage_pct": 0.0
+    },
+    {
+      "key": "DE",
+      "universe_mid": 40,
+      "ingested": 2.0,
+      "coverage_pct": 5.0
+    },
+    {
+      "key": "NO",
+      "universe_mid": 30,
+      "ingested": 22.0,
+      "coverage_pct": 73.3
+    },
+    {
+      "key": "IT",
+      "universe_mid": 30,
+      "ingested": 0.0,
+      "coverage_pct": 0.0
+    },
+    {
+      "key": "FR",
+      "universe_mid": 20,
+      "ingested": 0.0,
+      "coverage_pct": 0.0
+    },
+    {
+      "key": "FR/EN",
+      "universe_mid": 15,
+      "ingested": 0.0,
+      "coverage_pct": 0.0
+    }
+  ],
+  "by_sector": [
+    {
+      "key": "Construction",
+      "universe_mid": 928,
+      "ingested": 163.9,
+      "coverage_pct": 17.7
+    },
+    {
+      "key": "Cross-sector industrial",
+      "universe_mid": 260,
+      "ingested": 41.3,
+      "coverage_pct": 15.9
+    },
+    {
+      "key": "Other consumer",
+      "universe_mid": 154,
+      "ingested": 30.6,
+      "coverage_pct": 19.8
+    },
+    {
+      "key": "Food/Agriculture",
+      "universe_mid": 150,
+      "ingested": 54.2,
+      "coverage_pct": 36.1
+    },
+    {
+      "key": "Electronics/HVAC",
+      "universe_mid": 94,
+      "ingested": 0.0,
+      "coverage_pct": 0.0
+    }
+  ],
+  "cost": {
+    "llm_extraction_usd": 19.0,
+    "human_review_hours": 173.0,
+    "human_review_usd": 10368.0,
+    "adapter_eng_hours": 52,
+    "adapter_eng_usd": 3120,
+    "total_one_time_usd": 13507.0,
+    "storage_gb": 2.3,
+    "quarterly_reharvest_llm_usd": 24.0
+  },
+  "universe_table": [
+    {
+      "key": "environdec",
+      "name": "Intl EPD System",
+      "low": 247,
+      "high": 340,
+      "enumerated": 247,
+      "region": "Global",
+      "access": "open",
+      "ingested": 227
+    },
+    {
+      "key": "epd-norge",
+      "name": "EPD Norway",
+      "low": 30,
+      "high": 30,
+      "enumerated": 30,
+      "region": "Europe",
+      "access": "open",
+      "ingested": 22
+    },
+    {
+      "key": "ibu",
+      "name": "IBU (Germany)",
+      "low": 30,
+      "high": 50,
+      "enumerated": null,
+      "region": "Europe",
+      "access": "open",
+      "ingested": 2
+    },
+    {
+      "key": "pep",
+      "name": "PEP ecopassport",
+      "low": 10,
+      "high": 20,
+      "enumerated": null,
+      "region": "Europe",
+      "access": "open",
+      "ingested": 0
+    },
+    {
+      "key": "epdhub",
+      "name": "EPD Hub",
+      "low": 15,
+      "high": 40,
+      "enumerated": null,
+      "region": "Europe",
+      "access": "open",
+      "ingested": 2
+    },
+    {
+      "key": "epd-italy",
+      "name": "EPD Italy",
+      "low": 20,
+      "high": 40,
+      "enumerated": null,
+      "region": "Europe",
+      "access": "open",
+      "ingested": 0
+    },
+    {
+      "key": "inies",
+      "name": "INIES (France)",
+      "low": 10,
+      "high": 30,
+      "enumerated": null,
+      "region": "Europe",
+      "access": "gated",
+      "ingested": 0
+    },
+    {
+      "key": "bre",
+      "name": "BRE (UK)",
+      "low": 10,
+      "high": 20,
+      "enumerated": null,
+      "region": "Europe",
+      "access": "open",
+      "ingested": 3
+    },
+    {
+      "key": "other_eco",
+      "name": "Other ECO Platform (14 ops)",
+      "low": 120,
+      "high": 200,
+      "enumerated": null,
+      "region": "Europe",
+      "access": "open",
+      "ingested": 0
+    },
+    {
+      "key": "ul-spot",
+      "name": "UL SPOT (USA)",
+      "low": 150,
+      "high": 250,
+      "enumerated": null,
+      "region": "Americas",
+      "access": "gated",
+      "ingested": 0
+    },
+    {
+      "key": "us-epd",
+      "name": "US EPD (NSF/ICC-ES/SCS/PCA)",
+      "low": 80,
+      "high": 150,
+      "enumerated": null,
+      "region": "Americas",
+      "access": "open",
+      "ingested": 12
+    },
+    {
+      "key": "keiti",
+      "name": "KEITI (Korea)",
+      "low": 100,
+      "high": 250,
+      "enumerated": null,
+      "region": "Asia",
+      "access": "gated",
+      "ingested": 0
+    },
+    {
+      "key": "jemai",
+      "name": "JEMAI/SuMPO (Japan)",
+      "low": 100,
+      "high": 250,
+      "enumerated": null,
+      "region": "Asia",
+      "access": "gated",
+      "ingested": 0
+    },
+    {
+      "key": "epd-au",
+      "name": "EPD Australasia",
+      "low": 20,
+      "high": 40,
+      "enumerated": null,
+      "region": "Oceania",
+      "access": "open",
+      "ingested": 0
+    },
+    {
+      "key": "latam",
+      "name": "EPD Chile/Brazil/Mexico",
+      "low": 50,
+      "high": 100,
+      "enumerated": null,
+      "region": "Americas",
+      "access": "open",
+      "ingested": 0
+    },
+    {
+      "key": "eu-ef",
+      "name": "EU PEFCR/OEFSR",
+      "low": 30,
+      "high": 40,
+      "enumerated": 30,
+      "region": "Europe",
+      "access": "open",
+      "ingested": 22
+    },
+    {
+      "key": "sector",
+      "name": "Sector schemes + c-PCRs",
+      "low": 100,
+      "high": 200,
+      "enumerated": null,
+      "region": "Global",
+      "access": "mixed",
+      "ingested": 0
+    }
+  ],
+  "assumptions": {
+    "llm_cost_per_pcr_usd": 0.015,
+    "pdf_storage_mb_per_pcr": 1.5,
+    "adapter_build_hours": 4,
+    "human_review_min_per_pcr": 8,
+    "human_rate_usd_per_hr": 60,
+    "reharvest_per_quarter_frac": 1.0
+  }
+}

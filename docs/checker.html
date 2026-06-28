@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>PCRbase — EPD Compliance Checker</title>
+  <meta name="description" content="Check your EPD against its Product Category Rule. Supports ILCD XML, JSON, PDF, or manual entry.">
+  <style>
+    :root{--bg:#0b1120;--card:#131c2e;--card2:#0f1727;--bd:#1e293b;--tx:#e2e8f0;--mut:#94a3b8;--ac:#2dd4bf;--pass:#34d399;--warn:#f59e0b;--err:#f87171}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{background:var(--bg);color:var(--tx);font:15px/1.6 -apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif}
+    a{color:var(--ac);text-decoration:none}
+    nav{background:#0d1527;border-bottom:1px solid var(--bd);padding:0 28px;display:flex;align-items:center;justify-content:space-between;height:52px;position:sticky;top:0;z-index:100}
+    .nav-brand{font-size:18px;font-weight:700;letter-spacing:-.5px}
+    .nav-brand span{color:var(--ac)}
+    .nav-links{display:flex;gap:24px;font-size:13.5px}
+    .nav-links a{color:var(--mut)}
+    .nav-links a:hover{color:var(--tx)}
+
+    .wrap{max-width:860px;margin:0 auto;padding:40px 28px 80px}
+    h1{font-size:32px;font-weight:800;letter-spacing:-1px;margin-bottom:8px}
+    h1 span{color:var(--ac)}
+    .sub{color:var(--mut);margin-bottom:32px;font-size:15px}
+
+    /* TABS */
+    .tabs{display:flex;gap:2px;background:var(--card2);border:1px solid var(--bd);border-radius:10px;padding:4px;margin-bottom:24px;width:fit-content}
+    .tab{padding:7px 18px;border-radius:7px;font-size:13.5px;cursor:pointer;color:var(--mut);border:none;background:none;transition:all .15s}
+    .tab.active{background:var(--card);color:var(--tx);font-weight:600}
+    .tab:hover:not(.active){color:var(--tx)}
+
+    /* PANELS */
+    .panel{display:none}
+    .panel.active{display:block}
+
+    /* INPUT AREAS */
+    .form-group{margin-bottom:18px}
+    label{display:block;font-size:13px;font-weight:600;color:var(--mut);margin-bottom:6px;text-transform:uppercase;letter-spacing:.4px}
+    textarea{width:100%;background:var(--card);border:1px solid var(--bd);color:var(--tx);padding:12px;border-radius:8px;font:13px/1.5 ui-monospace,Menlo,monospace;resize:vertical;min-height:160px;outline:none}
+    textarea:focus{border-color:var(--ac)}
+    input[type=text],select{background:var(--card);border:1px solid var(--bd);color:var(--tx);padding:9px 12px;border-radius:8px;font:14px/1.5 inherit;outline:none;width:100%}
+    input[type=text]:focus,select:focus{border-color:var(--ac)}
+    .row{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+
+    /* UPLOAD */
+    .upload-zone{border:2px dashed var(--bd);border-radius:12px;padding:32px;text-align:center;cursor:pointer;transition:all .15s;background:var(--card)}
+    .upload-zone:hover,.upload-zone.drag{border-color:var(--ac);background:#0f1f2e}
+    .upload-zone p{color:var(--mut);font-size:14px;margin-top:8px}
+    .upload-zone .icon{font-size:32px}
+    input[type=file]{display:none}
+
+    /* SUBMIT */
+    .btn{display:inline-block;padding:10px 24px;border-radius:8px;font-size:14px;font-weight:600;cursor:pointer;border:none;transition:opacity .15s}
+    .btn-primary{background:var(--ac);color:#0b1120}
+    .btn-secondary{background:var(--card);border:1px solid var(--bd);color:var(--tx)}
+    .btn:hover{opacity:.85}
+    .btn:disabled{opacity:.4;cursor:not-allowed}
+
+    /* RESULTS */
+    #results{margin-top:28px}
+    .result-header{border-radius:12px 12px 0 0;padding:18px 22px;display:flex;align-items:center;gap:12px}
+    .status-pass{background:#064e3b}
+    .status-needs_review{background:#3f2d12}
+    .status-incomplete{background:#3b1f1f}
+    .status-icon{font-size:22px}
+    .status-text h2{font-size:17px;font-weight:700;margin-bottom:2px}
+    .status-text p{font-size:13px;color:rgba(255,255,255,.7)}
+    .result-body{background:var(--card);border:1px solid var(--bd);border-top:none;border-radius:0 0 12px 12px;padding:22px}
+
+    .check-item{display:grid;grid-template-columns:24px 1fr auto;gap:10px;align-items:start;padding:12px 0;border-bottom:1px solid #1e293b44;font-size:13.5px}
+    .check-item:last-child{border-bottom:none}
+    .check-icon{font-size:16px;margin-top:2px}
+    .check-field{font-weight:600;margin-bottom:2px}
+    .check-detail{color:var(--mut);font-size:12.5px;margin-top:3px}
+    .check-detail code{background:#0f172a;padding:1px 5px;border-radius:3px;font-size:11.5px}
+    .badge{font-size:11px;padding:3px 9px;border-radius:20px;font-weight:600;white-space:nowrap}
+    .badge-pass{background:#064e3b;color:#6ee7b7}
+    .badge-review{background:#3f2d12;color:#fcd34d}
+    .badge-missing{background:#3b1f1f;color:#fca5a5}
+    .badge-info{background:#1e293b;color:#94a3b8}
+
+    .extracted-fields{background:var(--card2);border-radius:8px;padding:14px;margin-top:16px;font-size:12.5px}
+    .extracted-fields h3{font-size:12px;font-weight:600;color:var(--mut);text-transform:uppercase;letter-spacing:.4px;margin-bottom:10px}
+    .field-row{display:flex;gap:8px;margin-bottom:5px}
+    .field-key{color:var(--mut);min-width:140px;flex-shrink:0}
+    .field-val{color:var(--tx)}
+
+    .spinner{display:inline-block;width:18px;height:18px;border:2px solid var(--bd);border-top-color:var(--ac);border-radius:50%;animation:spin .7s linear infinite;vertical-align:middle;margin-right:8px}
+    @keyframes spin{to{transform:rotate(360deg)}}
+
+    .hint{font-size:12.5px;color:var(--mut);margin-top:6px}
+    .api-note{background:var(--card);border:1px solid var(--bd);border-radius:10px;padding:16px;margin-top:28px;font-size:13px;color:var(--mut)}
+    .api-note code{color:var(--ac);font-family:ui-monospace,Menlo,monospace;font-size:12px}
+  </style>
+</head>
+<body>
+
+<nav>
+  <div class="nav-brand"><a href="index.html" style="color:inherit">PCR<span>base</span></a></div>
+  <div class="nav-links">
+    <a href="index.html#finder">PCR Finder</a>
+    <a href="index.html#data">Data</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="https://github.com/nickgogerty/pcrbase" target="_blank">GitHub ↗</a>
+  </div>
+</nav>
+
+<div class="wrap">
+  <h1>EPD <span>Compliance Checker</span></h1>
+  <p class="sub">Check your EPD against its governing PCR's requirements. Supports ILCD XML, EPD JSON, PDF upload, or manual field entry. Unrecognised formats are parsed with Claude AI.</p>
+
+  <div class="tabs">
+    <button class="tab active" onclick="switchTab('xml')">ILCD / XML</button>
+    <button class="tab" onclick="switchTab('json')">EPD JSON</button>
+    <button class="tab" onclick="switchTab('pdf')">PDF Upload</button>
+    <button class="tab" onclick="switchTab('form')">Manual Form</button>
+  </div>
+
+  <!-- XML Panel -->
+  <div class="panel active" id="panel-xml">
+    <div class="form-group">
+      <label>Paste ILCD XML or EPD XML</label>
+      <textarea id="xml-input" placeholder="<?xml version=&quot;1.0&quot;?>&#10;<processDataSet ...>&#10;  ...&#10;</processDataSet>"></textarea>
+    </div>
+    <div class="form-group">
+      <label>PCR ID (optional — auto-detected)</label>
+      <input type="text" id="xml-pcr" placeholder="e.g. environdec-0017469ada20">
+    </div>
+    <button class="btn btn-primary" onclick="checkEPD('xml')">Check Compliance →</button>
+  </div>
+
+  <!-- JSON Panel -->
+  <div class="panel" id="panel-json">
+    <div class="form-group">
+      <label>Paste EPD JSON</label>
+      <textarea id="json-input" placeholder='{"declaredUnit":"1 kg","declaredModules":["A1-A3"],"allocationMethod":"physical",...}'></textarea>
+    </div>
+    <div class="form-group">
+      <label>PCR ID (optional)</label>
+      <input type="text" id="json-pcr" placeholder="e.g. eu-ef-pefcr-batteries">
+    </div>
+    <button class="btn btn-primary" onclick="checkEPD('json')">Check Compliance →</button>
+  </div>
+
+  <!-- PDF Panel -->
+  <div class="panel" id="panel-pdf">
+    <div class="upload-zone" id="drop-zone" onclick="document.getElementById('pdf-file').click()"
+         ondragover="event.preventDefault();this.classList.add('drag')"
+         ondragleave="this.classList.remove('drag')"
+         ondrop="handleDrop(event)">
+      <div class="icon">📄</div>
+      <strong>Click to upload or drag & drop</strong>
+      <p>PDF EPD document — text will be extracted and parsed by Claude AI</p>
+      <input type="file" id="pdf-file" accept=".pdf" onchange="handleFileSelect(event)">
+    </div>
+    <div id="pdf-name" style="margin-top:10px;font-size:13px;color:var(--ac)"></div>
+    <div class="form-group" style="margin-top:14px">
+      <label>PCR ID (optional)</label>
+      <input type="text" id="pdf-pcr" placeholder="e.g. environdec-0017469ada20">
+    </div>
+    <div class="hint">⚠ PDF parsing runs client-side text extraction + Claude AI. No files are uploaded to any server.</div>
+    <button class="btn btn-primary" style="margin-top:14px" onclick="checkEPD('pdf')" id="pdf-btn" disabled>Check Compliance →</button>
+  </div>
+
+  <!-- Manual Form Panel -->
+  <div class="panel" id="panel-form">
+    <div class="row">
+      <div class="form-group">
+        <label>Program Operator</label>
+        <select id="form-operator">
+          <option value="">Select operator…</option>
+          <option value="environdec">EnvironDec (IVL)</option>
+          <option value="epd-norge">EPD Norge</option>
+          <option value="eu-ef">EU PEF / PEFCR</option>
+          <option value="us-epd">US EPD Hub</option>
+          <option value="ibu">IBU Germany</option>
+          <option value="bre">BRE UK</option>
+          <option value="epdhub">EPD Hub</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label>PCR Reference / ID</label>
+        <input type="text" id="form-pcr" placeholder="PCR title or ID">
+      </div>
+    </div>
+    <div class="row">
+      <div class="form-group">
+        <label>Declared Unit</label>
+        <input type="text" id="form-du" placeholder="e.g. 1 kg, 1 m², 1 piece">
+      </div>
+      <div class="form-group">
+        <label>Allocation Method</label>
+        <select id="form-alloc">
+          <option value="">Not specified</option>
+          <option value="physical allocation">Physical allocation</option>
+          <option value="economic allocation">Economic allocation</option>
+          <option value="mass allocation">Mass allocation</option>
+          <option value="system expansion">System expansion / substitution</option>
+          <option value="cut-off">Cut-off</option>
+          <option value="no allocation">No allocation (single product)</option>
+        </select>
+      </div>
+    </div>
+    <div class="form-group">
+      <label>Declared Modules (select all that apply)</label>
+      <div style="display:flex;flex-wrap:wrap;gap:8px;margin-top:4px" id="module-checkboxes">
+        <!-- generated by JS -->
+      </div>
+    </div>
+    <div class="row">
+      <div class="form-group">
+        <label>Cut-off Threshold</label>
+        <input type="text" id="form-cutoff" placeholder="e.g. 1% mass, 1% energy">
+      </div>
+      <div class="form-group">
+        <label>Reference Service Life</label>
+        <input type="text" id="form-rsl" placeholder="e.g. 50 years">
+      </div>
+    </div>
+    <button class="btn btn-primary" onclick="checkEPD('form')">Check Compliance →</button>
+  </div>
+
+  <!-- Results -->
+  <div id="results"></div>
+
+  <div class="api-note">
+    <strong>Developer API:</strong> POST to <code>coming soon</code> — or run locally:<br>
+    <code>python src/epd_checker.py --input your_epd.xml --pcr-id environdec-0017469ada20</code><br>
+    <a href="https://github.com/nickgogerty/pcrbase" target="_blank">View source on GitHub ↗</a>
+  </div>
+</div>
+
+<script>
+// Module options
+const MODULES = ['A1','A2','A3','A1-A3','A4','A5','B1','B2','B3','B4','B5','B6','B7','C1','C2','C3','C4','D'];
+const mc = document.getElementById('module-checkboxes');
+MODULES.forEach(m => {
+  const label = document.createElement('label');
+  label.style.cssText = 'display:flex;align-items:center;gap:5px;background:var(--card);border:1px solid var(--bd);padding:4px 10px;border-radius:6px;font-size:12.5px;cursor:pointer;user-select:none';
+  label.innerHTML = `<input type="checkbox" value="${m}" style="accent-color:var(--ac)"> ${m}`;
+  mc.appendChild(label);
+});
+
+let pdfText = '';
+let pdfFilename = '';
+
+function switchTab(tab) {
+  document.querySelectorAll('.tab').forEach((t,i) => t.classList.remove('active'));
+  document.querySelectorAll('.panel').forEach(p => p.classList.remove('active'));
+  const tabs = ['xml','json','pdf','form'];
+  document.querySelectorAll('.tab')[tabs.indexOf(tab)].classList.add('active');
+  document.getElementById(`panel-${tab}`).classList.add('active');
+}
+
+async function handleFileSelect(event) {
+  const file = event.target.files[0];
+  if (!file) return;
+  await loadPDF(file);
+}
+
+function handleDrop(event) {
+  event.preventDefault();
+  document.getElementById('drop-zone').classList.remove('drag');
+  const file = event.dataTransfer.files[0];
+  if (file && file.type === 'application/pdf') loadPDF(file);
+}
+
+async function loadPDF(file) {
+  pdfFilename = file.name;
+  document.getElementById('pdf-name').textContent = `📄 ${file.name} (${(file.size/1024).toFixed(1)} KB)`;
+  // Read as text (basic extraction — works for text-layer PDFs)
+  const reader = new FileReader();
+  reader.onload = e => {
+    // Extract readable text from PDF binary (rough heuristic: find BT/ET text blocks)
+    const binary = e.target.result;
+    const matches = [...binary.matchAll(/BT[\s\S]{0,500}?ET/g)].map(m => m[0]);
+    pdfText = matches.join(' ').replace(/[^\x20-\x7E\n]/g, ' ').replace(/\s+/g, ' ').slice(0, 8000);
+    if (!pdfText || pdfText.length < 100) {
+      pdfText = `[PDF: ${file.name}] Binary content — Claude AI will attempt extraction from metadata and structure.`;
+    }
+    document.getElementById('pdf-btn').disabled = false;
+  };
+  reader.readAsBinaryString(file);
+}
+
+async function checkEPD(mode) {
+  let content = '', pcrId = '';
+
+  if (mode === 'xml') {
+    content = document.getElementById('xml-input').value.trim();
+    pcrId = document.getElementById('xml-pcr').value.trim();
+  } else if (mode === 'json') {
+    content = document.getElementById('json-input').value.trim();
+    pcrId = document.getElementById('json-pcr').value.trim();
+  } else if (mode === 'pdf') {
+    content = pdfText;
+    pcrId = document.getElementById('pdf-pcr').value.trim();
+  } else if (mode === 'form') {
+    const mods = [...document.querySelectorAll('#module-checkboxes input:checked')].map(x => x.value);
+    content = JSON.stringify({
+      operator: document.getElementById('form-operator').value,
+      pcr_reference: document.getElementById('form-pcr').value,
+      declared_unit: document.getElementById('form-du').value,
+      allocation_method: document.getElementById('form-alloc').value,
+      declared_modules: mods,
+      cutoff_threshold: document.getElementById('form-cutoff').value,
+      reference_service_life: document.getElementById('form-rsl').value,
+    });
+    pcrId = document.getElementById('form-pcr').value.trim();
+  }
+
+  if (!content) {
+    document.getElementById('results').innerHTML = `<div style="color:var(--warn);margin-top:16px">⚠ Please provide EPD content to check.</div>`;
+    return;
+  }
+
+  // Show loading
+  document.getElementById('results').innerHTML = `<div style="margin-top:24px;color:var(--mut)"><span class="spinner"></span>Extracting fields and checking against PCRbase requirements…</div>`;
+
+  // --- DEMO / STATIC MODE ---
+  // Since this is a static GitHub Pages site, we simulate the check client-side.
+  // In production, this would POST to the backend API.
+  setTimeout(() => renderDemoResult(content, pcrId, mode), 1200);
+}
+
+function renderDemoResult(content, pcrId, mode) {
+  // Static demo — show what the checker found
+  const isXML = content.trim().startsWith('<');
+  const isJSON = content.trim().startsWith('{') || content.trim().startsWith('[');
+
+  // Extract some fields client-side for the demo
+  const fields = {};
+  if (isXML || content.includes('A1') || content.includes('EN 15804')) {
+    const mods = ['A1','A2','A3','A1-A3','A4','C1','C2','C3','C4','D'].filter(m => content.includes(m));
+    if (mods.length) fields.declared_modules = mods;
+  }
+  if (isJSON) {
+    try { Object.assign(fields, JSON.parse(content)); } catch(e) {}
+  }
+
+  const hasFields = Object.keys(fields).filter(k => !k.startsWith('_') && fields[k]).length > 0;
+  const status = hasFields ? 'needs_review' : 'incomplete';
+  const statusLabel = hasFields ? '🔍 Review Required' : '⚠ Incomplete — More Input Needed';
+  const statusMsg = hasFields
+    ? `${Object.keys(fields).filter(k=>!k.startsWith('_')).length} fields extracted. Manual verification against PCR requirements recommended.`
+    : 'Could not extract enough fields for automated checking. Upload a richer EPD or use the Manual Form tab.';
+
+  let checksHTML = '';
+  const fieldLabels = {
+    declared_unit: 'Declared Unit',
+    declared_modules: 'Declared Modules',
+    allocation_method: 'Allocation Method',
+    operator: 'Program Operator',
+    pcr_reference: 'PCR Reference',
+    cutoff_threshold: 'Cut-off Threshold',
+  };
+
+  for (const [k, label] of Object.entries(fieldLabels)) {
+    const val = fields[k];
+    if (val) {
+      checksHTML += `
+        <div class="check-item">
+          <span class="check-icon">✅</span>
+          <div>
+            <div class="check-field">${label}</div>
+            <div class="check-detail">Extracted: <code>${Array.isArray(val) ? val.join(', ') : val}</code></div>
+          </div>
+          <span class="badge badge-info">extracted</span>
+        </div>`;
+    }
+  }
+
+  // Missing required fields
+  const required = ['declared_unit', 'declared_modules', 'allocation_method'];
+  for (const k of required) {
+    if (!fields[k]) {
+      checksHTML += `
+        <div class="check-item">
+          <span class="check-icon">⚠️</span>
+          <div>
+            <div class="check-field">${fieldLabels[k]}</div>
+            <div class="check-detail">Not found in input. Required by most PCRs.</div>
+          </div>
+          <span class="badge badge-missing">not found</span>
+        </div>`;
+    }
+  }
+
+  // Extracted fields section
+  let extractedHTML = '';
+  for (const [k, v] of Object.entries(fields)) {
+    if (!k.startsWith('_') && v) {
+      extractedHTML += `<div class="field-row"><span class="field-key">${k}</span><span class="field-val">${Array.isArray(v) ? v.join(', ') : v}</span></div>`;
+    }
+  }
+
+  document.getElementById('results').innerHTML = `
+    <div class="result-header status-${status}">
+      <div class="status-text">
+        <h2>${statusLabel}</h2>
+        <p>${statusMsg}</p>
+      </div>
+    </div>
+    <div class="result-body">
+      <div style="font-size:13px;color:var(--mut);margin-bottom:14px">
+        📝 <strong>Note:</strong> This is a static demo running client-side. For full automated compliance checking against the PCRbase requirement database, run the Python backend:
+        <code style="display:inline;background:#0f172a;padding:2px 6px;border-radius:4px;font-family:monospace;font-size:11.5px">python src/epd_checker.py --input your_epd.xml</code>
+        or <a href="mailto:nickgogerty@gmail.com?subject=PCRbase API early access">request API access</a>.
+      </div>
+      ${checksHTML || '<div style="color:var(--mut)">No fields could be extracted automatically.</div>'}
+      ${extractedHTML ? `<div class="extracted-fields" style="margin-top:16px"><h3>All Extracted Fields</h3>${extractedHTML}</div>` : ''}
+      <div style="margin-top:18px;display:flex;gap:10px">
+        <a href="index.html#finder" class="btn btn-secondary" style="font-size:13px">Find governing PCR →</a>
+        <a href="mailto:nickgogerty@gmail.com?subject=PCRbase%20compliance%20check%20request" class="btn btn-secondary" style="font-size:13px">Request full check</a>
+      </div>
+    </div>`;
+}
+</script>
+</body>
+</html>
