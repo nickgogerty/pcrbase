@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>State of PCR Methods 2026 — PCRbase</title>
+<meta name="description" content="290 PCRs, 4,409 requirements, expiry cliff, method fragmentation.">
+<style>
+:root{--bg:#0b1120;--card:#131c2e;--bd:#1e293b;--tx:#e2e8f0;--mut:#94a3b8;--ac:#2dd4bf}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--tx);font:16px/1.75 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif}
+a{color:var(--ac)}
+nav{background:#0d1527;border-bottom:1px solid var(--bd);padding:0 28px;display:flex;align-items:center;justify-content:space-between;height:52px}
+.nb{font-size:18px;font-weight:700;color:var(--tx);text-decoration:none}.nb span{color:var(--ac)}
+.nl{display:flex;gap:24px;font-size:13.5px}.nl a{color:var(--mut);text-decoration:none}.nl a:hover{color:var(--tx)}
+article{max-width:720px;margin:48px auto 80px;padding:0 28px}
+h1{font-size:36px;font-weight:800;letter-spacing:-1px;line-height:1.2;margin-bottom:8px}
+h2{font-size:22px;font-weight:700;margin:40px 0 14px;padding-top:24px;border-top:1px solid var(--bd)}
+h3{font-size:17px;font-weight:600;margin:24px 0 10px}
+p{margin-bottom:14px}
+table{width:100%;border-collapse:collapse;margin:18px 0;font-size:14px}
+th{text-align:left;color:var(--mut);font-size:12px;text-transform:uppercase;letter-spacing:.4px;padding:7px 10px;border-bottom:1px solid var(--bd);font-weight:600}
+td{padding:7px 10px;border-bottom:1px solid #1e293b66}
+tr:nth-child(even) td{background:#0f172a55}
+ul,ol{padding-left:22px;margin-bottom:14px}li{margin-bottom:4px}
+hr{border:none;border-top:1px solid var(--bd);margin:32px 0}
+code{font-family:ui-monospace,Menlo,monospace;font-size:13px;background:#0f172a;padding:2px 6px;border-radius:4px;color:var(--ac)}
+.byline{color:var(--mut);font-size:14px;margin-bottom:36px;padding-bottom:24px;border-bottom:1px solid var(--bd)}
+.share-row{display:flex;gap:10px;flex-wrap:wrap;margin-top:40px;padding-top:24px;border-top:1px solid var(--bd)}
+.btn{display:inline-block;padding:9px 20px;border-radius:8px;font-size:13.5px;font-weight:600;text-decoration:none;transition:opacity .15s}
+.btn-primary{background:var(--ac);color:#0b1120}.btn-secondary{background:var(--card);border:1px solid var(--bd);color:var(--tx)}.btn:hover{opacity:.85}
+</style>
+</head>
+<body>
+<nav>
+  <a href="index.html" class="nb">PCR<span>base</span></a>
+  <div class="nl">
+    <a href="index.html#finder">PCR Finder</a>
+    <a href="dashboard.html">Dashboard</a>
+    <a href="https://github.com/nickgogerty/pcrbase" target="_blank">GitHub</a>
+  </div>
+</nav>
+<article>
+<div class="byline">PCRbase &middot; June 2026 &middot; <a href="https://github.com/nickgogerty/pcrbase">nickgogerty/pcrbase</a></div>
+<h1>State of PCR Methods 2026</h1>
+<h2>A Machine-Readable Inventory of Product Category Rules</h2>
+<p><em>PCRbase · June 2026 · nickgogerty.github.io/pcrbase</em></p>
+<hr />
+<h2>Executive Summary</h2>
+<ul>
+<li><strong>290 Product Category Rules</strong> from 7 program operators are now machine-readable — the first structured, open inventory of PCRs ever compiled. Across 302 versions, 4,409 normative requirements have been extracted, normalised, and mapped to the COMET carbon ontology.</li>
+<li><strong>The EPD industry faces an expiry cliff.</strong> 92 PCR versions (30% of the tracked corpus) have already expired, and a further 59 versions expire in 2026 alone. Practitioners relying on outdated rules risk non-compliant EPD declarations without a structured alert system.</li>
+<li><strong>Method fragmentation is real but concentrated.</strong> 78% of PCRs follow ISO 14067 (EnvironDec-dominated), 14% follow EN 15804, and 8% follow EU PEF — yet the three methods share only partial clause overlap, creating silent incompatibilities for cross-program comparisons.</li>
+</ul>
+<hr />
+<h2>1. The PCR Landscape</h2>
+<p><strong>Coverage at a glance</strong></p>
+<table>
+<thead>
+<tr>
+<th>Metric</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>PCRs inventoried</td>
+<td>290</td>
+</tr>
+<tr>
+<td>Program operators (live)</td>
+<td>7</td>
+</tr>
+<tr>
+<td>Source PDFs acquired</td>
+<td>247 (85% of inventoried versions)</td>
+</tr>
+<tr>
+<td>Pages of source rules</td>
+<td>9,176 (median 29 pp, max 271 pp)</td>
+</tr>
+<tr>
+<td>Requirements extracted</td>
+<td>4,409</td>
+</tr>
+<tr>
+<td>Span-verified extractions</td>
+<td>3,884 (88%)</td>
+</tr>
+<tr>
+<td>Languages</td>
+<td>English (216), Norwegian (30), German (1)</td>
+</tr>
+</tbody>
+</table>
+<p>The seven operators in the current corpus — EnvironDec (IVL), EPD Norge, EU EF/PEFCR, US EPD, BRE, EPD Hub, IBU — collectively represent an estimated 18–20% of the global PCR universe (~1,500–1,700 PCRs across 26+ known operators). The remaining operators are either gated (UL SPOT, KEITI, JEMAI) or have not yet been harvested (INIES, PEP ecopassport, EPD Italy, Australasia).</p>
+<p><strong>Operator breakdown</strong></p>
+<table>
+<thead>
+<tr>
+<th>Operator</th>
+<th>PCRs</th>
+<th>PDFs</th>
+<th>Method</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>EnvironDec (IVL, Sweden)</td>
+<td>227</td>
+<td>173</td>
+<td>ISO 14067</td>
+</tr>
+<tr>
+<td>EPD Norge (Norway)</td>
+<td>22</td>
+<td>22</td>
+<td>EN 15804</td>
+</tr>
+<tr>
+<td>EU EF / PEFCR (European Commission)</td>
+<td>22</td>
+<td>22</td>
+<td>EU PEF</td>
+</tr>
+<tr>
+<td>US EPD (NSF / ICC-ES / SCS / PCA)</td>
+<td>12</td>
+<td>12</td>
+<td>ISO 14067</td>
+</tr>
+<tr>
+<td>BRE (UK)</td>
+<td>3</td>
+<td>3</td>
+<td>EN 15804</td>
+</tr>
+<tr>
+<td>EPD Hub</td>
+<td>2</td>
+<td>2</td>
+<td>EN 15804</td>
+</tr>
+<tr>
+<td>IBU (Germany)</td>
+<td>2</td>
+<td>1</td>
+<td>EN 15804</td>
+</tr>
+</tbody>
+</table>
+<p>EnvironDec alone accounts for 78% of the inventoried corpus, reflecting both its scale and the relative openness of its data infrastructure. 54 EnvironDec entries are metadata-only (c-PCRs with no standalone PDF), a structural feature of the category-PCR / sub-PCR architecture.</p>
+<hr />
+<h2>2. Method Fragmentation</h2>
+<p>Three normative frameworks govern how EPD carbon footprints are calculated:</p>
+<table>
+<thead>
+<tr>
+<th>Method</th>
+<th>PCRs</th>
+<th>Share</th>
+<th>Governing standard</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>ISO 14067</td>
+<td>227</td>
+<td>78%</td>
+<td>ISO 14067:2018, ISO 14044</td>
+</tr>
+<tr>
+<td>EN 15804</td>
+<td>41</td>
+<td>14%</td>
+<td>EN 15804+A2:2019/A1:2021</td>
+</tr>
+<tr>
+<td>EU PEF</td>
+<td>22</td>
+<td>8%</td>
+<td>EC Recommendation 2021/2279</td>
+</tr>
+</tbody>
+</table>
+<p>These frameworks are not equivalent. PCRbase's clause-level analysis across 65 normalised requirement keys finds that:</p>
+<ul>
+<li><strong>System boundary</strong> (modules A1–D) is declared differently across all three — EN 15804 mandates explicit module-by-module declaration; ISO 14067 allows more flexible scoping; PEF mandates all life-cycle stages.</li>
+<li><strong>Allocation rules</strong> diverge sharply: EN 15804+A2 mandates the Circular Footprint Formula (CFF) for recycled content; ISO 14067 PCRs vary between physical, economic, and system-expansion approaches.</li>
+<li><strong>LCIA indicator sets</strong> are largely disjoint: EN 15804+A2 requires 16 EF impact categories; ISO 14067 PCRs typically require only GWP100; PEF requires the full EF 3.1 set (16 categories) but with different characterisation factors.</li>
+</ul>
+<p>Cross-program EPD comparisons — increasingly demanded by CBAM, ISO 14064-3 verifiers, and EU Green Deal procurement — are currently impeded by this fragmentation. PCRbase's ontology mapping provides the first machine-readable bridge.</p>
+<hr />
+<h2>3. The Expiry Cliff</h2>
+<p>Of the 302 PCR versions in the corpus, 221 carry an explicit validity date. The distribution reveals a structural problem:</p>
+<table>
+<thead>
+<tr>
+<th>Status</th>
+<th>Count</th>
+<th>Share</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Already expired (valid_until &lt; today)</td>
+<td>92</td>
+<td>42%</td>
+</tr>
+<tr>
+<td>Valid through 2026</td>
+<td>59</td>
+<td>27%</td>
+</tr>
+<tr>
+<td>Valid 2027–2030</td>
+<td>88</td>
+<td>40%</td>
+</tr>
+<tr>
+<td>Valid 2031+</td>
+<td>2</td>
+<td>1%</td>
+</tr>
+</tbody>
+</table>
+<p><strong>59 PCR versions expire in 2026</strong> — the single largest annual cohort. If manufacturers and consultancies are unaware of expiry, EPDs declared against superseded rules remain technically non-compliant. Most EPD program portals do not send automated alerts; practitioners must check manually.</p>
+<p>PCRbase addresses this directly: the version diff monitor detects expiry events and PCR updates in the harvested corpus daily, delivering alerts when changes are detected.</p>
+<hr />
+<h2>4. Data Quality Findings</h2>
+<p><strong>Extraction confidence (LLM + span verification)</strong></p>
+<p>Extraction was performed using Claude Haiku 4.5 with a verbatim span-verification gate: each extracted value must be locatable as a substring in the source PDF. Results across 4,409 requirements:</p>
+<ul>
+<li>3,884 requirements (88%) passed span verification — the extracted value is directly attributable to the source document.</li>
+<li>12% of requirements are flagged as unverified, typically due to OCR artefacts in scanned PDFs or implicit values not explicitly stated in text.</li>
+</ul>
+<p><strong>COMET mapping completeness</strong></p>
+<p>All 65 normalised clause vocabulary keys now have a COMET mapping:</p>
+<table>
+<thead>
+<tr>
+<th>Status</th>
+<th>Clause keys</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Exact (existing COMET class/property)</td>
+<td>13</td>
+</tr>
+<tr>
+<td>Extended (COMET reified/extended)</td>
+<td>50</td>
+</tr>
+<tr>
+<td>Lossy (approximate fit, caveat noted)</td>
+<td>1</td>
+</tr>
+<tr>
+<td>Unmapped (catch-all bucket)</td>
+<td>1</td>
+</tr>
+</tbody>
+</table>
+<p>The 50 extended mappings constitute a structured evidence base for upstream PRs to the COMET ontology — each proposing a concrete new class or property with rationale and occurrence count.</p>
+<hr />
+<h2>5. What This Means for EPD Practitioners</h2>
+<p><strong>1. Stop treating PCRs as PDFs.</strong> 4,409 requirements across 290 PCRs can now be queried as structured data. Practitioners building EPD software, verifier tools, or CBAM declarations no longer need to manually cross-reference PDFs to find applicable rules.</p>
+<p><strong>2. Build expiry monitoring into your workflow.</strong> 42% of the PCR versions in the open corpus are already expired. Any automated EPD pipeline should check <code>valid_until</code> against today's date before applying a PCR's requirements. PCRbase provides this check as a free API endpoint.</p>
+<p><strong>3. Cross-program comparison requires an ontology bridge.</strong> The three major methods (ISO 14067 / EN 15804 / PEF) are structurally incompatible at the clause level without a shared semantic layer. The COMET ontology — with PCRbase as its primary PCR evidence base — is the emerging standard for this bridge.</p>
+<hr />
+<h2>About PCRbase</h2>
+<p>PCRbase is an open-source project maintaining a versioned, machine-readable inventory of Product Category Rules, with requirements extracted and mapped to the <a href="https://nickgogerty.github.io/comet-ontology/">COMET carbon ontology</a>. The pipeline uses DuckDB as a system-of-record, Claude Haiku for LLM-assisted extraction with span-verification gates, and generates RDF/JSON-LD aligned to COMET.</p>
+<p><strong>Data access:</strong> <a href="https://nickgogerty.github.io/pcrbase">nickgogerty.github.io/pcrbase</a> · GitHub: <a href="https://github.com/nickgogerty/pcrbase">nickgogerty/pcrbase</a></p>
+<p><em>Contact: nickgogerty@gmail.com · Data: CC BY 4.0 · Code: MIT</em></p>
+<div class="share-row">
+  <a href="https://github.com/nickgogerty/pcrbase" class="btn btn-primary" target="_blank">Star on GitHub</a>
+  <a href="index.html#finder" class="btn btn-secondary">Search PCRs</a>
+  <a href="mailto:nickgogerty@gmail.com?subject=PCRbase%20Report%202026" class="btn btn-secondary">Contact</a>
+</div>
+</article>
+</body>
+</html>
