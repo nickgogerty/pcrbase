@@ -8,19 +8,19 @@
     ]
   },
   {
-    "operator_id": "eu-ef",
-    "pcr_count": 22,
-    "pdf_count": 22,
-    "method_families": [
-      "PEF"
-    ]
-  },
-  {
     "operator_id": "epd-norge",
     "pcr_count": 22,
     "pdf_count": 30,
     "method_families": [
       "EN15804"
+    ]
+  },
+  {
+    "operator_id": "eu-ef",
+    "pcr_count": 22,
+    "pdf_count": 22,
+    "method_families": [
+      "PEF"
     ]
   },
   {
