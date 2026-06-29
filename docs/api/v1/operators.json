@@ -8,6 +8,15 @@
     ]
   },
   {
+    "operator_id": "sumpo",
+    "pcr_count": 76,
+    "pdf_count": 76,
+    "method_families": [
+      "ISO14067",
+      "EN15804"
+    ]
+  },
+  {
     "operator_id": "epd-norge",
     "pcr_count": 22,
     "pdf_count": 30,

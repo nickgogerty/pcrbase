@@ -5,16 +5,17 @@ download open PDFs to data/blobs, record provenance + harvest health (A8).
 import sys, os, hashlib, time, uuid, datetime, requests
 sys.path.insert(0, os.path.dirname(__file__))
 from schema import get_con
-from adapters import environdec, epdnorge, manual_registry
+from adapters import environdec, epdnorge, manual_registry, sumpo
 
 # adapter registry: operator -> module with .harvest(max_pages, limit)
 ADAPTERS = {
     "environdec": environdec,
     "epd-norge": epdnorge,
     "manual": manual_registry,
+    "sumpo": sumpo,
 }
 # default method_family per operator (overridable per-record)
-OP_METHOD = {"environdec": "ISO14067", "epd-norge": "EN15804"}
+OP_METHOD = {"environdec": "ISO14067", "epd-norge": "EN15804", "sumpo": "ISO14067"}
 
 BLOB_DIR = os.path.join(os.path.dirname(__file__), "..", "data", "blobs")
 HEADERS = {"User-Agent": "Mozilla/5.0 (PCRbase research harvester)"}
@@ -55,13 +56,14 @@ def run_adapter(operator, max_pages=25, limit=None, download=True):
         pid = pcr_id_for(d["operator_id"], d.get("pcr_number"), d.get("title"))
         vid = pid + "-" + (d.get("version_label") or "v0").replace(".", "_")
         method = d.get("method_family") or OP_METHOD.get(d["operator_id"], "ISO14067")
-        geo = "Global" if d["operator_id"] == "environdec" else None
+        geo = d.get("geography") or ("Global" if d["operator_id"] == "environdec" else None)
+        sector = d.get("sector") or None
         exists = con.execute("SELECT 1 FROM pcr WHERE pcr_id=?", [pid]).fetchone()
         if not exists:
             con.execute(
                 "INSERT INTO pcr (pcr_id, operator_id, pcr_number, title, pcr_type, method_family, sector, cpc_code, geography, _run_id) VALUES (?,?,?,?,?,?,?,?,?,?)",
                 [pid, d["operator_id"], d.get("pcr_number"), d.get("title"), d.get("pcr_type", "pcr"),
-                 method, None, d.get("cpc_code"), geo, run_id])
+                 method, sector, d.get("cpc_code"), geo, run_id])
             n_pcr += 1
         # version
         vexists = con.execute("SELECT 1 FROM pcr_version WHERE version_id=?", [vid]).fetchone()
