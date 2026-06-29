@@ -12,6 +12,7 @@ PREFIXES = """@prefix comet: <https://comet.carbon/v1/core#> .
 @prefix comet-pcf: <https://comet.carbon/v1/pcf#> .
 @prefix comet-sc: <https://comet.carbon/v1/supplychain#> .
 @prefix comet-ver: <https://comet.carbon/v1/ver#> .
+@prefix comet-pj: <https://comet.carbon/ext/pcr-japan#> .
 @prefix pcrbase: <https://pcrbase.org/v1/> .
 @prefix dcterms: <http://purl.org/dc/terms/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
@@ -32,8 +33,13 @@ def export_turtle():
     lines = [PREFIXES]
     for (vid, num, title, ptype, cpc, vlabel, valid, url, op) in rows:
         subj = f"pcrbase:{vid}"
-        lines.append(f"\n{subj} a comet-pcf:PCRDocument ;")
-        lines.append(f'    dcterms:title "{esc(title)}" ;')
+        # Use richer type for sumpo PCRs — comet-pj:SuMPOPCRDocument
+        if op == "sumpo":
+            rdf_type = "comet-pj:SuMPOPCRDocument , comet-pcf:PCRDocument"
+        else:
+            rdf_type = "comet-pcf:PCRDocument"
+        lines.append(f"\n{subj} a {rdf_type} ;")
+        lines.append(f'    dcterms:title "{esc(title)}"@en ;')
         if num:   lines.append(f'    comet-pcf:pcrNumber "{esc(num)}" ;')
         if vlabel:lines.append(f'    comet-pcf:version "{esc(vlabel)}" ;')
         if cpc:   lines.append(f'    comet-pcf:scopeCPC "{esc(cpc)}" ;')

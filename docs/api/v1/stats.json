@@ -5,15 +5,15 @@
   "total_operators": 8,
   "by_method": {
     "EN15804": 45,
-    "PEF": 22,
-    "ISO14067": 299
+    "ISO14067": 299,
+    "PEF": 22
   },
   "by_type": {
+    "cpcr": 60,
     "pcr": 279,
     "epd": 1,
-    "cpcr": 60,
-    "pefcr": 22,
-    "subpcr": 4
+    "subpcr": 4,
+    "pefcr": 22
   },
   "by_operator": {
     "environdec": 227,
@@ -22,14 +22,14 @@
     "eu-ef": 22,
     "us-epd": 12,
     "bre": 3,
-    "epdhub": 2,
-    "ibu": 2
+    "ibu": 2,
+    "epdhub": 2
   },
   "comet_mapping": {
+    "lossy": 6,
     "unmapped": 187,
     "exact": 100,
-    "lossy": 6,
     "extended": 147
   },
-  "generated_at": "2026-06-29T15:48:52.960011+00:00"
+  "generated_at": "2026-06-29T16:11:13.487589+00:00"
 }

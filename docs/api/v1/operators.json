@@ -12,8 +12,8 @@
     "pcr_count": 76,
     "pdf_count": 76,
     "method_families": [
-      "ISO14067",
-      "EN15804"
+      "EN15804",
+      "ISO14067"
     ]
   },
   {
