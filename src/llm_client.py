@@ -1,17 +1,32 @@
 """Anthropic LLM client for PCRbase extraction — Haiku 4.5 for cost.
 
-Auth: uses the Hermes credential pool OAuth token (~/.hermes/auth.json,
-provider 'anthropic'), with the oauth beta header. No raw API key is present on
-this machine; OAuth subscription tokens expose claude-haiku-4-5. Picks the
-highest-priority entry with last_status=='ok' and a non-expired access_token.
-
-If you later add a raw ANTHROPIC_API_KEY env var, it takes precedence (simpler).
+Auth priority:
+  1. ANTHROPIC_API_KEY env var (raw key — fastest, takes precedence)
+  2. ~/.hermes/.env file (ANTHROPIC_API_KEY=sk-ant-... line)
+  3. Hermes credential pool OAuth token (~/.hermes/auth.json)
+     OAuth tokens expose claude-haiku-4-5 via the oauth beta header.
 """
-import os, json, time, urllib.request, urllib.error
+import os, json, time, urllib.request, urllib.error, re
 
-MODEL = "claude-haiku-4-5"
+MODEL    = "claude-haiku-4-5"
 AUTH_JSON = os.path.expanduser("~/.hermes/auth.json")
-API_URL = "https://api.anthropic.com/v1/messages"
+HERMES_ENV = os.path.expanduser("~/.hermes/.env")
+API_URL  = "https://api.anthropic.com/v1/messages"
+
+
+def _key_from_hermes_env() -> str | None:
+    """Read ANTHROPIC_API_KEY from ~/.hermes/.env if it exists."""
+    try:
+        with open(HERMES_ENV) as f:
+            for line in f:
+                line = line.strip()
+                if line.startswith("ANTHROPIC_API_KEY="):
+                    key = line.split("=", 1)[1].strip().strip('"').strip("'")
+                    if key and key.startswith("sk-"):
+                        return key
+    except FileNotFoundError:
+        pass
+    return None
 
 
 def _load_oauth_token():
@@ -34,10 +49,15 @@ def _load_oauth_token():
 
 
 def _headers():
+    # 1. explicit env var
     api_key = os.environ.get("ANTHROPIC_API_KEY")
+    # 2. ~/.hermes/.env fallback
+    if not api_key:
+        api_key = _key_from_hermes_env()
     if api_key:
         return {"x-api-key": api_key, "anthropic-version": "2023-06-01",
                 "content-type": "application/json"}
+    # 3. OAuth token from Hermes credential pool
     tok = _load_oauth_token()
     return {"authorization": f"Bearer {tok}", "anthropic-version": "2023-06-01",
             "anthropic-beta": "oauth-2025-04-20", "content-type": "application/json"}

@@ -34,9 +34,14 @@ SYSTEM = (
     "Product Category Rule (PCR) document. You return STRICT JSON only. For each "
     "requirement you can locate, you MUST copy a VERBATIM quote (10-200 chars) "
     "from the provided text as evidence, and give the 1-based page number it came "
-    "from. Never invent values. If a clause is absent, omit it. Non-English text: "
-    "extract the value, translate the value to English in value_en, keep the "
-    "verbatim original-language quote in source_quote."
+    "from. Never invent values. If a clause is absent, omit it.\n\n"
+    "MULTILINGUAL RULES:\n"
+    "- If the document is in Japanese (日本語): extract the verbatim Japanese quote "
+    "as source_quote; provide an accurate English translation in value_en.\n"
+    "- If Norwegian, German, French or other non-English: same — verbatim original "
+    "in source_quote, English translation in value_en.\n"
+    "- If already in English: source_quote and value_en may be the same.\n"
+    "- source_quote MUST be verbatim from the text — never translate the quote itself."
 )
 
 PROMPT_TMPL = """Extract PCR requirements from the text below.
@@ -129,15 +134,20 @@ def extract_clauses(pdf_path, max_pages=40):
         if key in seen:
             continue
         seen.add(key)
+        # source_quote is verbatim original-language text; value_en is the English translation
+        source_quote = quote  # always original-language verbatim
+        value_en     = (r.get("value_en") or quote)[:500]
         out.append({
-            "clause_key": ck,
-            "value_text": (r.get("value_en") or quote)[:500],
+            "clause_key":      ck,
+            "value_text":      value_en,          # backward-compat field (English)
+            "value_text_orig": source_quote[:500], # original-language verbatim
+            "value_text_en":   value_en,           # English translation / value
             "normalized_value": r.get("normalized_value"),
-            "confidence": round(conf, 2),
-            "conf_bucket": _conf_bucket(conf),
-            "source_page": page,
-            "source_span": src_span or "0:0",
-            "span_verified": span_verified,
+            "confidence":       round(conf, 2),
+            "conf_bucket":      _conf_bucket(conf),
+            "source_page":      page,
+            "source_span":      src_span or "0:0",
+            "span_verified":    span_verified,
         })
     return out
 

@@ -40,21 +40,35 @@ def export_turtle():
         if valid: lines.append(f'    comet-pcf:validUntil "{valid}"^^xsd:date ;')
         lines.append(f'    comet-pcf:programOperator pcrbase:operator-{op} ;')
         if url:   lines.append(f'    prov:wasDerivedFrom <{url}> ;')
-        # attach requirements as mapped triples
+        # attach requirements as mapped triples (bilingual: orig + EN)
         reqs = con.execute("""
-            SELECT r.clause_key, r.normalized_value, r.value_text_en, r.confidence,
+            SELECT r.clause_key, r.normalized_value, r.value_text_en, r.value_text_orig,
+                   r.confidence, r.source_lang,
                    m.comet_target, m.target_kind, m.mapping_status
             FROM requirement r LEFT JOIN comet_mapping m ON r.clause_key=m.clause_key
             WHERE r.version_id=? AND r.span_verified=TRUE
         """, [vid]).fetchall()
-        for (ck, norm, vtext, conf, target, kind, status) in reqs:
-            val = esc(norm or vtext)[:120]
-            lines.append(f'    pcrbase:hasRequirement [ '
-                         f'pcrbase:clauseKey "{ck}" ; '
-                         f'pcrbase:cometTarget "{esc(target)}" ; '
-                         f'pcrbase:mappingStatus "{status}" ; '
-                         f'pcrbase:confidence "{conf}"^^xsd:decimal ; '
-                         f'pcrbase:value "{val}" ] ;')
+        for (ck, norm, vtext_en, vtext_orig, conf, src_lang, target, kind, status) in reqs:
+            val_en   = esc(norm or vtext_en or "")[:120]
+            val_orig = esc(vtext_orig or "")[:120]
+            src_lang = src_lang or "en"
+            # English value always present; add original-language literal if different
+            lang_tag = f"@{src_lang}" if src_lang != "en" else "@en"
+            if val_orig and val_orig != val_en and src_lang != "en":
+                lines.append(f'    pcrbase:hasRequirement [ '
+                             f'pcrbase:clauseKey "{ck}" ; '
+                             f'pcrbase:cometTarget "{esc(target)}" ; '
+                             f'pcrbase:mappingStatus "{status}" ; '
+                             f'pcrbase:confidence "{conf}"^^xsd:decimal ; '
+                             f'pcrbase:value "{val_en}"@en ; '
+                             f'pcrbase:valueOrig "{val_orig}"{lang_tag} ] ;')
+            else:
+                lines.append(f'    pcrbase:hasRequirement [ '
+                             f'pcrbase:clauseKey "{ck}" ; '
+                             f'pcrbase:cometTarget "{esc(target)}" ; '
+                             f'pcrbase:mappingStatus "{status}" ; '
+                             f'pcrbase:confidence "{conf}"^^xsd:decimal ; '
+                             f'pcrbase:value "{val_en}"@en ] ;')
         # close
         lines[-1] = lines[-1].rstrip(" ;") + " ."
     con.close()

@@ -109,6 +109,11 @@ def run(run_id=None, backend="llm", limit=None, operator=None,
         for r in recs:
             req_id = "req-" + hashlib.md5(f"{version_id}|{r['clause_key']}|{r['source_page']}|{r['value_text'][:30]}".encode()).hexdigest()[:14]
             review = "needs_review" if (r["conf_bucket"] == "low" or not r["span_verified"]) else "unreviewed"
+            # Properly separate original-language text from English translation:
+            #   value_text_orig = verbatim source quote in original language (may be JA, NO, DE, etc.)
+            #   value_text_en   = English value/translation from LLM (or same as orig if already EN)
+            value_orig = r.get("value_text_orig") or r.get("value_text") or ""
+            value_en   = r.get("value_text_en")   or r.get("value_text") or value_orig
             con.execute(
                 """INSERT OR REPLACE INTO requirement
                 (req_id, version_id, clause_group, clause_key, clause_vocab_version,
@@ -117,7 +122,7 @@ def run(run_id=None, backend="llm", limit=None, operator=None,
                  extract_run_id, review_status, _run_id)
                 VALUES (?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?,?)""",
                 [req_id, version_id, r["clause_key"].split(".")[0], r["clause_key"], "v1-seed",
-                 r["value_text"], r["value_text"], r["normalized_value"], True, r["confidence"],
+                 value_orig, value_en, r["normalized_value"], True, r["confidence"],
                  r["conf_bucket"], r["source_page"], r["source_span"], r["span_verified"],
                  method_family or "ISO14067", run_id, review, run_id])
             n_req += 1
