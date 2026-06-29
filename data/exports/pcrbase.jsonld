@@ -190790,6 +190790,3873 @@
       ]
     },
     {
+      "@id": "pcrbase:sumpo-2b5654445242-1_0_0",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Cement",
+      "comet-pcf:pcrNumber": "PA-SuMPO-PCR-01003-1-0-0",
+      "comet-pcf:version": "1.0.0",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2031-05-25",
+      "pcrbase:hasRequirement": [
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01003-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01003-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01003-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Cement"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01003-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Cement"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Cement"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01003-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Cement"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01003-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01003-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Cement"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01003-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Cement"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.scopeDescription",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Cement"
+        }
+      ]
+    },
+    {
+      "@id": "pcrbase:sumpo-a70c1f12966b-2_0_0",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Wood, Wood Materials for Construction",
+      "comet-pcf:pcrNumber": "PA-SuMPO-PCR-01002-2-0-0",
+      "comet-pcf:version": "2.0.0",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2031-04-16",
+      "pcrbase:hasRequirement": [
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01002-2-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.version",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.version",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "2.0.0"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01002-2-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.version",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.version",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "2.0.0"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.85,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01002-2-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.version",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.version",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "2.0.0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Construction timber and wood-based materials"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.85,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01002-2-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.version",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.version",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "2.0.0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Construction timber and wood-based materials"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.85,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Construction timber and wood-based materials"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01002-2-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.version",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.version",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "2.0.0"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.85,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Construction timber and wood-based materials"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01002-2-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.version",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.version",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "2.0.0"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.85,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01002-2-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.version",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.version",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "2.0.0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Construction timber and wood-based materials"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.85,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01002-2-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.version",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.version",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "2.0.0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Construction timber and wood-based materials"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.scopeDescription",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Construction timber and wood-based materials"
+        }
+      ]
+    },
+    {
+      "@id": "pcrbase:sumpo-16c7c5b786b8-2_0_2",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Core-PCR for Construction products",
+      "comet-pcf:pcrNumber": "PA-SuMPO-PCR-01000-2-0-2",
+      "comet-pcf:version": "2.0.2",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2030-03-30",
+      "pcrbase:hasRequirement": [
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01000-2-0-2"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01000-2-0-2"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01000-2-0-2"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Building materials and construction products"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01000-2-0-2"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Building materials and construction products"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Building materials and construction products"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01000-2-0-2"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Building materials and construction products"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01000-2-0-2"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01000-2-0-2"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Building materials and construction products"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01000-2-0-2"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Building materials and construction products"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.scopeDescription",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Building materials and construction products"
+        }
+      ]
+    },
+    {
+      "@id": "pcrbase:sumpo-6489b4256721-3_0_0",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Switchboards",
+      "comet-pcf:pcrNumber": "PA-SuMPO-PCR-02002-3-0-0",
+      "comet-pcf:version": "3.0.0",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2031-01-21",
+      "pcrbase:hasRequirement": [
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-02002-3-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-02002-3-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-02002-3-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Distribution panels/switchboards"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.85,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-02002-3-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Distribution panels/switchboards"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.85,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Distribution panels/switchboards"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.85,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-02002-3-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.85,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Distribution panels/switchboards"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-02002-3-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.85,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-02002-3-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Distribution panels/switchboards"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.85,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-02002-3-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Distribution panels/switchboards"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.scopeDescription",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Distribution panels/switchboards"
+        }
+      ]
+    },
+    {
+      "@id": "pcrbase:sumpo-f67dca752a78-1_0_0",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Yarn and fabric (excluding those for construction) v.1.0.0",
+      "comet-pcf:pcrNumber": "PA-SuMPO-PCR-00003-1-0-0",
+      "comet-pcf:version": "1.0.0",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2030-12-21",
+      "pcrbase:hasRequirement": [
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-00003-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-00003-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-00003-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Yarns and fabrics (excluding construction use)"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-00003-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Yarns and fabrics (excluding construction use)"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Yarns and fabrics (excluding construction use)"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-00003-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Yarns and fabrics (excluding construction use)"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-00003-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-00003-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Yarns and fabrics (excluding construction use)"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-00003-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Yarns and fabrics (excluding construction use)"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.scopeDescription",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Yarns and fabrics (excluding construction use)"
+        }
+      ]
+    },
+    {
+      "@id": "pcrbase:sumpo-c3a024d760a9-1_0_1",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Electrical and Electronic Products and Parts",
+      "comet-pcf:pcrNumber": "PA-SuMPO-PCR-02000-1-0-1",
+      "comet-pcf:version": "1.0.1",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2030-11-19",
+      "pcrbase:hasRequirement": [
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-02000-1-0-1"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-02000-1-0-1"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.85,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-02000-1-0-1"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Electrical and electronic products and their components"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.85,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-02000-1-0-1"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Electrical and electronic products and their components"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.85,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Electrical and electronic products and their components"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-02000-1-0-1"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.85,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Electrical and electronic products and their components"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-02000-1-0-1"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.85,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-02000-1-0-1"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Electrical and electronic products and their components"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.85,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-02000-1-0-1"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Electrical and electronic products and their components"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.scopeDescription",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Electrical and electronic products and their components"
+        }
+      ]
+    },
+    {
+      "@id": "pcrbase:sumpo-51a33921057e-9_0_0",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Imaging input and/or output equipment products",
+      "comet-pcf:pcrNumber": "PA-SuMPO-PCR-02001-9-0-0",
+      "comet-pcf:version": "9.0.0",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2030-10-16",
+      "pcrbase:hasRequirement": [
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-02001-9-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-02001-9-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-02001-9-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Image input/output equipment"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-02001-9-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Image input/output equipment"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Image input/output equipment"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-02001-9-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Image input/output equipment"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-02001-9-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-02001-9-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Image input/output equipment"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-02001-9-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Image input/output equipment"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.scopeDescription",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Image input/output equipment"
+        }
+      ]
+    },
+    {
+      "@id": "pcrbase:sumpo-cfe54402a67e-2_0_0",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Processed food and Beverage",
+      "comet-pcf:pcrNumber": "PA-SuMPO-PCR-00002-2-0-0",
+      "comet-pcf:version": "2.0.0",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2029-07-07",
+      "pcrbase:hasRequirement": [
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-00002-2-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-00002-2-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-00002-2-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Processed food and beverage products"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-00002-2-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Processed food and beverage products"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Processed food and beverage products"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-00002-2-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Processed food and beverage products"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-00002-2-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-00002-2-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Processed food and beverage products"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ja"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-00002-2-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Processed food and beverage products"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.scopeDescription",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Processed food and beverage products"
+        }
+      ]
+    },
+    {
+      "@id": "pcrbase:sumpo-8d70babcf104-1_0_0",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Thermal insulation products",
+      "comet-pcf:pcrNumber": "PA-SuMPO-PCR-01001-1-0-0",
+      "comet-pcf:version": "1.0.0",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2030-09-29",
+      "pcrbase:hasRequirement": [
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01001-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01001-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01001-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Building insulation materials"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01001-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Building insulation materials"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Building insulation materials"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01001-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Building insulation materials"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01001-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01001-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Building insulation materials"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-01001-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Building insulation materials"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.scopeDescription",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Building insulation materials"
+        }
+      ]
+    },
+    {
+      "@id": "pcrbase:sumpo-05321c440c49-1_0_0",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Plastics In Primary Forms PCR",
+      "comet-pcf:pcrNumber": "PA-SuMPO-PCR-00001-1-0-0",
+      "comet-pcf:version": "1.0.0",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2030-09-11",
+      "pcrbase:hasRequirement": [
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-00001-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-00001-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-00001-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Plastic raw materials"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.85,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-00001-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Plastic raw materials"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.85,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Plastic raw materials"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.85,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-00001-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.85,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Plastic raw materials"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-00001-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.85,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-00001-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Plastic raw materials"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.85,
+          "pcrbase:value": "SuMPO Environmental Label Programme"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO-PCR-00001-1-0-0"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Plastic raw materials"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.scopeDescription",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Plastic raw materials"
+        }
+      ]
+    },
+    {
+      "@id": "pcrbase:sumpo-0ed5d74edfc0-rev08",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Steel products for construction",
+      "comet-pcf:pcrNumber": "PA-180000-AJ-08",
+      "comet-pcf:version": "rev08",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2030-03-31",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-a38603dc60f1-rev07",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Steel products (except for construction use)",
+      "comet-pcf:pcrNumber": "PA-180000-AW-07",
+      "comet-pcf:version": "rev07",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2030-03-31",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-675e3c7ea720-rev02",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Cellulose Derivatives",
+      "comet-pcf:pcrNumber": "PA-161600-CP-02",
+      "comet-pcf:version": "rev02",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2030-06-15",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-26c6db99cc93-rev06",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Steel products with secondary processing for construction",
+      "comet-pcf:pcrNumber": "PA-180000-AX-06",
+      "comet-pcf:version": "rev06",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2025-03-31",
+      "pcrbase:hasRequirement": [
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "PA-180000-AX-05"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "PA-180000-AX-05"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "PA-180000-AX-05"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Steel products with secondary processing for construction (intermediate goods)"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "PA-180000-AX-05"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Steel products with secondary processing for construction (intermediate goods)"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Steel products with secondary processing for construction (intermediate goods)"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "PA-180000-AX-05"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Steel products with secondary processing for construction (intermediate goods)"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "PA-180000-AX-05"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "PA-180000-AX-05"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Steel products with secondary processing for construction (intermediate goods)"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "PA-180000-AX-05"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Steel products with secondary processing for construction (intermediate goods)"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.scopeDescription",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Steel products with secondary processing for construction (intermediate goods)"
+        }
+      ]
+    },
+    {
+      "@id": "pcrbase:sumpo-1ee7bc10b2f3-rev06",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Steel products with secondary processing (except for construction use)",
+      "comet-pcf:pcrNumber": "PA-180000-AY-06",
+      "comet-pcf:version": "rev06",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2024-03-31",
+      "pcrbase:hasRequirement": [
+        {
+          "pcrbase:clauseKey": "id.pub_date",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.validFrom",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "2025-04-01"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "PA-180000-AY-05"
+        },
+        {
+          "pcrbase:clauseKey": "id.pub_date",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.validFrom",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "2025-04-01"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "PA-180000-AY-05"
+        },
+        {
+          "pcrbase:clauseKey": "id.core_pcr_ref",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.supersedes",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "PA-180000-AW-06"
+        },
+        {
+          "pcrbase:clauseKey": "id.pub_date",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.validFrom",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "2025-04-01"
+        },
+        {
+          "pcrbase:clauseKey": "scope.exclusions",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Construction use products are excluded"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "PA-180000-AY-05"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Steel products with secondary processing (except for construction use) (intermediate goods)"
+        },
+        {
+          "pcrbase:clauseKey": "scope.exclusions",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Construction use products are excluded"
+        },
+        {
+          "pcrbase:clauseKey": "id.core_pcr_ref",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.supersedes",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "PA-180000-AW-06"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "PA-180000-AY-05"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Steel products with secondary processing (except for construction use) (intermediate goods)"
+        },
+        {
+          "pcrbase:clauseKey": "id.pub_date",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.validFrom",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "2025-04-01"
+        },
+        {
+          "pcrbase:clauseKey": "id.core_pcr_ref",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.supersedes",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "PA-180000-AW-06"
+        },
+        {
+          "pcrbase:clauseKey": "scope.exclusions",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Construction use products are excluded"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Steel products with secondary processing (except for construction use) (intermediate goods)"
+        },
+        {
+          "pcrbase:clauseKey": "id.pub_date",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.validFrom",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "2025-04-01"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "PA-180000-AY-05"
+        },
+        {
+          "pcrbase:clauseKey": "scope.exclusions",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Construction use products are excluded"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Steel products with secondary processing (except for construction use) (intermediate goods)"
+        },
+        {
+          "pcrbase:clauseKey": "id.core_pcr_ref",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.supersedes",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "PA-180000-AW-06"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "PA-180000-AY-05"
+        },
+        {
+          "pcrbase:clauseKey": "id.pub_date",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.validFrom",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "2025-04-01"
+        },
+        {
+          "pcrbase:clauseKey": "scope.exclusions",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Construction use products are excluded"
+        },
+        {
+          "pcrbase:clauseKey": "id.core_pcr_ref",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.supersedes",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "PA-180000-AW-06"
+        },
+        {
+          "pcrbase:clauseKey": "id.pub_date",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.validFrom",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "2025-04-01"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "PA-180000-AY-05"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Steel products with secondary processing (except for construction use) (intermediate goods)"
+        },
+        {
+          "pcrbase:clauseKey": "scope.exclusions",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Construction use products are excluded"
+        },
+        {
+          "pcrbase:clauseKey": "id.pub_date",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.validFrom",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "2025-04-01"
+        },
+        {
+          "pcrbase:clauseKey": "id.core_pcr_ref",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.supersedes",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "PA-180000-AW-06"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "PA-180000-AY-05"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Steel products with secondary processing (except for construction use) (intermediate goods)"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.scopeDescription",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Steel products with secondary processing (except for construction use) (intermediate goods)"
+        },
+        {
+          "pcrbase:clauseKey": "scope.exclusions",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.exclusionScope",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Construction use products are excluded"
+        }
+      ]
+    },
+    {
+      "@id": "pcrbase:sumpo-930c3ffa894b-rev01",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Rock wool fireproof covering material",
+      "comet-pcf:pcrNumber": "PA-177100-CO-01",
+      "comet-pcf:version": "rev01",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2030-01-28",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-63978aa29835-rev06",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Polyethylene Pipes and Fittings for Water Supply\uff08intermediate goods\uff09",
+      "comet-pcf:pcrNumber": "PA-452210-BL-06",
+      "comet-pcf:version": "rev06",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2029-11-28",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-5960db6685c2-rev01",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Apparel and Textile Apparel Accessories except Fur and Leather Apparel",
+      "comet-pcf:pcrNumber": "PA-780000-CN-01",
+      "comet-pcf:version": "rev01",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2029-10-21",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-d651d7a6d1ff-rev02",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Switchboards",
+      "comet-pcf:pcrNumber": "PA-303000-CM-02",
+      "comet-pcf:version": "rev02",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2026-01-21",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-0877d79aa8ae-rev01",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Reclaimed Fluorocarbons",
+      "comet-pcf:pcrNumber": "PA-157100-CL-01",
+      "comet-pcf:version": "rev01",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2029-08-12",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-64e1ed4113f6-rev01",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Synthetic yarn (construction product)",
+      "comet-pcf:pcrNumber": "PA-142140-CH-01",
+      "comet-pcf:version": "rev01",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2029-07-25",
+      "pcrbase:hasRequirement": [
+        {
+          "pcrbase:clauseKey": "unit.value",
+          "pcrbase:cometTarget": "comet:FunctionalUnit",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "1 kg"
+        },
+        {
+          "pcrbase:clauseKey": "cutoff.mass",
+          "pcrbase:cometTarget": "comet-pcf:CutOffRule",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "report.verification_type",
+          "pcrbase:cometTarget": "comet-ver:AssuranceLevel",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "lcia.indicator_set",
+          "pcrbase:cometTarget": "comet-pcf:LCIAResult",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "lcia.biogenic",
+          "pcrbase:cometTarget": "comet-pcf:biogenicCarbon",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ISO14067:2018 compliance requires biogenic GHG emissions and removals"
+        },
+        {
+          "pcrbase:clauseKey": "dq.primary_share",
+          "pcrbase:cometTarget": "comet-sc:PrimaryDataShare",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Primary data collection required for important raw materials (synthetic resins), water, fuel, electricity, additives, pa"
+        },
+        {
+          "pcrbase:clauseKey": "id.pub_date",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.validFrom",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "2024-07-26"
+        },
+        {
+          "pcrbase:clauseKey": "id.valid_until",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.validUntil",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "5 years from approval or update date"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "PA-142140-CH-01"
+        },
+        {
+          "pcrbase:clauseKey": "unit.value",
+          "pcrbase:cometTarget": "comet:FunctionalUnit",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "1 kg"
+        },
+        {
+          "pcrbase:clauseKey": "id.valid_until",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.validUntil",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "5 years from approval or update date"
+        },
+        {
+          "pcrbase:clauseKey": "id.pub_date",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.validFrom",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "2024-07-26"
+        },
+        {
+          "pcrbase:clauseKey": "lcia.indicator_set",
+          "pcrbase:cometTarget": "comet-pcf:LCIAResult",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "lcia.biogenic",
+          "pcrbase:cometTarget": "comet-pcf:biogenicCarbon",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ISO14067:2018 compliance requires biogenic GHG emissions and removals"
+        },
+        {
+          "pcrbase:clauseKey": "dq.primary_share",
+          "pcrbase:cometTarget": "comet-sc:PrimaryDataShare",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Primary data collection required for important raw materials (synthetic resins), water, fuel, electricity, additives, pa"
+        },
+        {
+          "pcrbase:clauseKey": "cutoff.mass",
+          "pcrbase:cometTarget": "comet-pcf:CutOffRule",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "report.verification_type",
+          "pcrbase:cometTarget": "comet-ver:AssuranceLevel",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "PA-142140-CH-01"
+        },
+        {
+          "pcrbase:clauseKey": "id.core_pcr_ref",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.supersedes",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "unit.value",
+          "pcrbase:cometTarget": "comet:FunctionalUnit",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "1 kg"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Japanese"
+        },
+        {
+          "pcrbase:clauseKey": "scope.target_audience",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.85,
+          "pcrbase:value": "Businesses declaring synthetic yarn products in SuMPO Environmental Label Program"
+        },
+        {
+          "pcrbase:clauseKey": "lcia.biogenic",
+          "pcrbase:cometTarget": "comet-pcf:biogenicCarbon",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ISO14067:2018 compliance requires biogenic GHG emissions and removals"
+        },
+        {
+          "pcrbase:clauseKey": "id.pub_date",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.validFrom",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "2024-07-26"
+        },
+        {
+          "pcrbase:clauseKey": "report.layout",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP requirements"
+        },
+        {
+          "pcrbase:clauseKey": "lcia.indicator_set",
+          "pcrbase:cometTarget": "comet-pcf:LCIAResult",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "PA-142140-CH-01"
+        },
+        {
+          "pcrbase:clauseKey": "id.geography",
+          "pcrbase:cometTarget": "comet-core:GeographyScope",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "Worldwide"
+        },
+        {
+          "pcrbase:clauseKey": "report.verification_type",
+          "pcrbase:cometTarget": "comet-ver:AssuranceLevel",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "scenario.transport",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Specified transport scenarios by lifecycle stage with vehicle types and load factors"
+        },
+        {
+          "pcrbase:clauseKey": "id.valid_until",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.validUntil",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "5 years from approval or update date"
+        },
+        {
+          "pcrbase:clauseKey": "dq.primary_share",
+          "pcrbase:cometTarget": "comet-sc:PrimaryDataShare",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Primary data collection required for important raw materials (synthetic resins), water, fuel, electricity, additives, pa"
+        },
+        {
+          "pcrbase:clauseKey": "id.operator",
+          "pcrbase:cometTarget": "comet-core:PCRProgramOperator",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Sustainable Management Promotion Organization (SuMPO)"
+        },
+        {
+          "pcrbase:clauseKey": "dq.temporal",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "cutoff.mass",
+          "pcrbase:cometTarget": "comet-pcf:CutOffRule",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "Synthetic yarn (construction product) - intermediate material for flooring applications"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO Environmental Label Program"
+        },
+        {
+          "pcrbase:clauseKey": "scenario.transport",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Specified transport scenarios by lifecycle stage with vehicle types and load factors"
+        },
+        {
+          "pcrbase:clauseKey": "dq.primary_share",
+          "pcrbase:cometTarget": "comet-sc:PrimaryDataShare",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Primary data collection required for important raw materials (synthetic resins), water, fuel, electricity, additives, pa"
+        },
+        {
+          "pcrbase:clauseKey": "id.operator",
+          "pcrbase:cometTarget": "comet-core:PCRProgramOperator",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Sustainable Management Promotion Organization (SuMPO)"
+        },
+        {
+          "pcrbase:clauseKey": "dq.temporal",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "unit.value",
+          "pcrbase:cometTarget": "comet:FunctionalUnit",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "1 kg"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Japanese"
+        },
+        {
+          "pcrbase:clauseKey": "scope.target_audience",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.85,
+          "pcrbase:value": "Businesses declaring synthetic yarn products in SuMPO Environmental Label Program"
+        },
+        {
+          "pcrbase:clauseKey": "lcia.indicator_set",
+          "pcrbase:cometTarget": "comet-pcf:LCIAResult",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "lcia.biogenic",
+          "pcrbase:cometTarget": "comet-pcf:biogenicCarbon",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ISO14067:2018 compliance requires biogenic GHG emissions and removals"
+        },
+        {
+          "pcrbase:clauseKey": "id.core_pcr_ref",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.supersedes",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "report.verification_type",
+          "pcrbase:cometTarget": "comet-ver:AssuranceLevel",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "PA-142140-CH-01"
+        },
+        {
+          "pcrbase:clauseKey": "id.geography",
+          "pcrbase:cometTarget": "comet-core:GeographyScope",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "Worldwide"
+        },
+        {
+          "pcrbase:clauseKey": "id.valid_until",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.validUntil",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "5 years from approval or update date"
+        },
+        {
+          "pcrbase:clauseKey": "report.layout",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP requirements"
+        },
+        {
+          "pcrbase:clauseKey": "cutoff.mass",
+          "pcrbase:cometTarget": "comet-pcf:CutOffRule",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "Synthetic yarn (construction product) - intermediate material for flooring applications"
+        },
+        {
+          "pcrbase:clauseKey": "id.pub_date",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.validFrom",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "2024-07-26"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO Environmental Label Program"
+        },
+        {
+          "pcrbase:clauseKey": "id.core_pcr_ref",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.supersedes",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "lcia.biogenic",
+          "pcrbase:cometTarget": "comet-pcf:biogenicCarbon",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ISO14067:2018 compliance requires biogenic GHG emissions and removals"
+        },
+        {
+          "pcrbase:clauseKey": "lcia.indicator_set",
+          "pcrbase:cometTarget": "comet-pcf:LCIAResult",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "report.layout",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP requirements"
+        },
+        {
+          "pcrbase:clauseKey": "unit.value",
+          "pcrbase:cometTarget": "comet:FunctionalUnit",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "1 kg"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Japanese"
+        },
+        {
+          "pcrbase:clauseKey": "scope.target_audience",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.85,
+          "pcrbase:value": "Businesses declaring synthetic yarn products in SuMPO Environmental Label Program"
+        },
+        {
+          "pcrbase:clauseKey": "report.verification_type",
+          "pcrbase:cometTarget": "comet-ver:AssuranceLevel",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "scenario.transport",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Specified transport scenarios by lifecycle stage with vehicle types and load factors"
+        },
+        {
+          "pcrbase:clauseKey": "cutoff.mass",
+          "pcrbase:cometTarget": "comet-pcf:CutOffRule",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "Synthetic yarn (construction product) - intermediate material for flooring applications"
+        },
+        {
+          "pcrbase:clauseKey": "id.valid_until",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.validUntil",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "5 years from approval or update date"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO Environmental Label Program"
+        },
+        {
+          "pcrbase:clauseKey": "id.pub_date",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.validFrom",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "2024-07-26"
+        },
+        {
+          "pcrbase:clauseKey": "dq.primary_share",
+          "pcrbase:cometTarget": "comet-sc:PrimaryDataShare",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Primary data collection required for important raw materials (synthetic resins), water, fuel, electricity, additives, pa"
+        },
+        {
+          "pcrbase:clauseKey": "id.operator",
+          "pcrbase:cometTarget": "comet-core:PCRProgramOperator",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Sustainable Management Promotion Organization (SuMPO)"
+        },
+        {
+          "pcrbase:clauseKey": "dq.temporal",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "PA-142140-CH-01"
+        },
+        {
+          "pcrbase:clauseKey": "id.geography",
+          "pcrbase:cometTarget": "comet-core:GeographyScope",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "Worldwide"
+        },
+        {
+          "pcrbase:clauseKey": "lcia.biogenic",
+          "pcrbase:cometTarget": "comet-pcf:biogenicCarbon",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ISO14067:2018 compliance requires biogenic GHG emissions and removals"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO Environmental Label Program"
+        },
+        {
+          "pcrbase:clauseKey": "unit.value",
+          "pcrbase:cometTarget": "comet:FunctionalUnit",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "1 kg"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Japanese"
+        },
+        {
+          "pcrbase:clauseKey": "scope.target_audience",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.85,
+          "pcrbase:value": "Businesses declaring synthetic yarn products in SuMPO Environmental Label Program"
+        },
+        {
+          "pcrbase:clauseKey": "lcia.indicator_set",
+          "pcrbase:cometTarget": "comet-pcf:LCIAResult",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "cutoff.mass",
+          "pcrbase:cometTarget": "comet-pcf:CutOffRule",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "Synthetic yarn (construction product) - intermediate material for flooring applications"
+        },
+        {
+          "pcrbase:clauseKey": "report.verification_type",
+          "pcrbase:cometTarget": "comet-ver:AssuranceLevel",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "id.core_pcr_ref",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.supersedes",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "scenario.transport",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Specified transport scenarios by lifecycle stage with vehicle types and load factors"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "PA-142140-CH-01"
+        },
+        {
+          "pcrbase:clauseKey": "id.geography",
+          "pcrbase:cometTarget": "comet-core:GeographyScope",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "Worldwide"
+        },
+        {
+          "pcrbase:clauseKey": "id.valid_until",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.validUntil",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "5 years from approval or update date"
+        },
+        {
+          "pcrbase:clauseKey": "id.pub_date",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.validFrom",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "2024-07-26"
+        },
+        {
+          "pcrbase:clauseKey": "dq.primary_share",
+          "pcrbase:cometTarget": "comet-sc:PrimaryDataShare",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Primary data collection required for important raw materials (synthetic resins), water, fuel, electricity, additives, pa"
+        },
+        {
+          "pcrbase:clauseKey": "id.operator",
+          "pcrbase:cometTarget": "comet-core:PCRProgramOperator",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Sustainable Management Promotion Organization (SuMPO)"
+        },
+        {
+          "pcrbase:clauseKey": "dq.temporal",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "report.layout",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP requirements"
+        },
+        {
+          "pcrbase:clauseKey": "scenario.transport",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Specified transport scenarios by lifecycle stage with vehicle types and load factors"
+        },
+        {
+          "pcrbase:clauseKey": "unit.value",
+          "pcrbase:cometTarget": "comet:FunctionalUnit",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "1 kg"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Japanese"
+        },
+        {
+          "pcrbase:clauseKey": "scope.target_audience",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.85,
+          "pcrbase:value": "Businesses declaring synthetic yarn products in SuMPO Environmental Label Program"
+        },
+        {
+          "pcrbase:clauseKey": "lcia.indicator_set",
+          "pcrbase:cometTarget": "comet-pcf:LCIAResult",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "lcia.biogenic",
+          "pcrbase:cometTarget": "comet-pcf:biogenicCarbon",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ISO14067:2018 compliance requires biogenic GHG emissions and removals"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO Environmental Label Program"
+        },
+        {
+          "pcrbase:clauseKey": "report.verification_type",
+          "pcrbase:cometTarget": "comet-ver:AssuranceLevel",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "id.core_pcr_ref",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.supersedes",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "id.pub_date",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.validFrom",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "2024-07-26"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "PA-142140-CH-01"
+        },
+        {
+          "pcrbase:clauseKey": "id.geography",
+          "pcrbase:cometTarget": "comet-core:GeographyScope",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "Worldwide"
+        },
+        {
+          "pcrbase:clauseKey": "id.valid_until",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.validUntil",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "5 years from approval or update date"
+        },
+        {
+          "pcrbase:clauseKey": "report.layout",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP requirements"
+        },
+        {
+          "pcrbase:clauseKey": "dq.primary_share",
+          "pcrbase:cometTarget": "comet-sc:PrimaryDataShare",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Primary data collection required for important raw materials (synthetic resins), water, fuel, electricity, additives, pa"
+        },
+        {
+          "pcrbase:clauseKey": "id.operator",
+          "pcrbase:cometTarget": "comet-core:PCRProgramOperator",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Sustainable Management Promotion Organization (SuMPO)"
+        },
+        {
+          "pcrbase:clauseKey": "dq.temporal",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "cutoff.mass",
+          "pcrbase:cometTarget": "comet-pcf:CutOffRule",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "Synthetic yarn (construction product) - intermediate material for flooring applications"
+        },
+        {
+          "pcrbase:clauseKey": "lcia.biogenic",
+          "pcrbase:cometTarget": "comet-pcf:biogenicCarbon",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "ISO14067:2018 compliance requires biogenic GHG emissions and removals"
+        },
+        {
+          "pcrbase:clauseKey": "lcia.indicator_set",
+          "pcrbase:cometTarget": "comet-pcf:LCIAResult",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "report.verification_type",
+          "pcrbase:cometTarget": "comet-ver:AssuranceLevel",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "unit.value",
+          "pcrbase:cometTarget": "comet:FunctionalUnit",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "1 kg"
+        },
+        {
+          "pcrbase:clauseKey": "id.language",
+          "pcrbase:cometTarget": "dcterms:language",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Japanese"
+        },
+        {
+          "pcrbase:clauseKey": "scope.target_audience",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.85,
+          "pcrbase:value": "Businesses declaring synthetic yarn products in SuMPO Environmental Label Program"
+        },
+        {
+          "pcrbase:clauseKey": "id.pub_date",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.validFrom",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "2024-07-26"
+        },
+        {
+          "pcrbase:clauseKey": "id.core_pcr_ref",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.supersedes",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "dq.primary_share",
+          "pcrbase:cometTarget": "comet-sc:PrimaryDataShare",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Primary data collection required for important raw materials (synthetic resins), water, fuel, electricity, additives, pa"
+        },
+        {
+          "pcrbase:clauseKey": "id.operator",
+          "pcrbase:cometTarget": "comet-core:PCRProgramOperator",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Sustainable Management Promotion Organization (SuMPO)"
+        },
+        {
+          "pcrbase:clauseKey": "dq.temporal",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "id.program",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.program",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "SuMPO Environmental Label Program"
+        },
+        {
+          "pcrbase:clauseKey": "id.pcr_number",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.pcrNumber",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "PA-142140-CH-01"
+        },
+        {
+          "pcrbase:clauseKey": "id.geography",
+          "pcrbase:cometTarget": "comet-core:GeographyScope",
+          "pcrbase:mappingStatus": "exact",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "Worldwide"
+        },
+        {
+          "pcrbase:clauseKey": "id.valid_until",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.validUntil",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "5 years from approval or update date"
+        },
+        {
+          "pcrbase:clauseKey": "scenario.transport",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Specified transport scenarios by lifecycle stage with vehicle types and load factors"
+        },
+        {
+          "pcrbase:clauseKey": "report.layout",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP requirements"
+        },
+        {
+          "pcrbase:clauseKey": "cutoff.mass",
+          "pcrbase:cometTarget": "comet-pcf:CutOffRule",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": null,
+          "pcrbase:mappingStatus": "unmapped",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "Synthetic yarn (construction product) - intermediate material for flooring applications"
+        },
+        {
+          "pcrbase:clauseKey": "scope.product_category",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.scopeDescription",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.99,
+          "pcrbase:value": "Synthetic yarn (construction product) - intermediate material for flooring applications"
+        },
+        {
+          "pcrbase:clauseKey": "scope.target_audience",
+          "pcrbase:cometTarget": "comet-pcf:PCRDocument.targetAudience",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.85,
+          "pcrbase:value": "Businesses declaring synthetic yarn products in SuMPO Environmental Label Program"
+        },
+        {
+          "pcrbase:clauseKey": "report.layout",
+          "pcrbase:cometTarget": "comet-pcf:EPDLayoutRequirement",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP requirements"
+        },
+        {
+          "pcrbase:clauseKey": "dq.temporal",
+          "pcrbase:cometTarget": "comet-pcf:DataQualityRequirement.temporalRepresentativeness",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.9,
+          "pcrbase:value": "Follows core PCR PA-240000-BP"
+        },
+        {
+          "pcrbase:clauseKey": "scenario.transport",
+          "pcrbase:cometTarget": "comet-pcf:TransportScenario",
+          "pcrbase:mappingStatus": "extended",
+          "pcrbase:confidence": 0.95,
+          "pcrbase:value": "Specified transport scenarios by lifecycle stage with vehicle types and load factors"
+        }
+      ]
+    },
+    {
+      "@id": "pcrbase:sumpo-2ab490fb38fa-rev01",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Processed food and Beverage",
+      "comet-pcf:pcrNumber": "PA-700000-CG-01",
+      "comet-pcf:version": "rev01",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2025-09-29",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-6b2ab806fe31-rev04",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Transformer",
+      "comet-pcf:pcrNumber": "PA-302200-BT-04",
+      "comet-pcf:version": "rev04",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2029-05-27",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-f9b2673c58a5-rev01",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Cellulose-plastic Composites",
+      "comet-pcf:pcrNumber": "PA-165000-CK-01",
+      "comet-pcf:version": "rev01",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2029-05-08",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-a9e533a2c4ad-rev01",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Circuit Breaker\u30fbDisconnector",
+      "comet-pcf:pcrNumber": "PA-303800-CE-01",
+      "comet-pcf:version": "rev01",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2029-03-05",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-74ec9e7b467a-rev01",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Paints and Chemical Surface Treatment",
+      "comet-pcf:pcrNumber": "PA-166000-CJ-01",
+      "comet-pcf:version": "rev01",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-12-05",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-7bf344db5f2f-rev03",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Stainless steel products",
+      "comet-pcf:pcrNumber": "PA-187000-BO-03",
+      "comet-pcf:version": "rev03",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-12-03",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-97df4b37c7b7-rev01",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Wood, Wood Materials for Construction",
+      "comet-pcf:pcrNumber": "PA-121000-CF-01",
+      "comet-pcf:version": "rev01",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2026-04-19",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-b79ca88260c8-rev01",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Construction products",
+      "comet-pcf:pcrNumber": "PA-240000-BP-01",
+      "comet-pcf:version": "rev01",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2025-03-30",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-9d0827442705-rev01",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Paper Containers, Packaging and Wrapping",
+      "comet-pcf:pcrNumber": "PA-254100-BU-01",
+      "comet-pcf:version": "rev01",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-10-05",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-914d23d30d22-rev08",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Imaging input and/or output equipment",
+      "comet-pcf:pcrNumber": "PA-590000-AI-08",
+      "comet-pcf:version": "rev08",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-08-31",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-5a6875ddce85-rev05",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Recycled Plastics material (Intermediate Goods)",
+      "comet-pcf:pcrNumber": "PA-165000-BA-05",
+      "comet-pcf:version": "rev05",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-08-31",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-321484d30d46-rev05",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Recycled plastic molding products",
+      "comet-pcf:pcrNumber": "PA-165000-BB-05",
+      "comet-pcf:version": "rev05",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-08-31",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-5a914002db57-rev04",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "ham\u30fbsausage",
+      "comet-pcf:pcrNumber": "PA-731100-BD-04",
+      "comet-pcf:version": "rev04",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-08-31",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-0af7bd2327e3-rev05",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Edible vegetable oil and fat",
+      "comet-pcf:pcrNumber": "PA-265300-BE-05",
+      "comet-pcf:version": "rev05",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-08-31",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-3dd8c4fceca6-rev04",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Reuse lead-acid battery",
+      "comet-pcf:pcrNumber": "PA-623210-BG-04",
+      "comet-pcf:version": "rev04",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-08-31",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-5a8346916a72-rev03",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Plastic pallet for cargo and transportation",
+      "comet-pcf:pcrNumber": "PA-259200-BG-03",
+      "comet-pcf:version": "rev03",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-08-31",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-d4dd10f0d244-rev05",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Precast Concrete\uff08PC\uff09(intermediate goods)",
+      "comet-pcf:pcrNumber": "PA-172290-BH-05",
+      "comet-pcf:version": "rev05",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-08-31",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-d42b53ff960b-rev04",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Wallcoverings",
+      "comet-pcf:pcrNumber": "PA-134610-BI-04",
+      "comet-pcf:version": "rev04",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-08-31",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-ebfd4ad46adb-rev04",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Intelligent gas meter for LP gas",
+      "comet-pcf:pcrNumber": "PA-631423-BJ-04",
+      "comet-pcf:version": "rev04",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-08-31",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-3bafd4426999-rev05",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Cabinet",
+      "comet-pcf:pcrNumber": "PA-259900-BK-05",
+      "comet-pcf:version": "rev05",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-08-31",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-39f481eb8fe9-rev04",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Plastic Roof Drain\uff08intermediate goods\uff09",
+      "comet-pcf:pcrNumber": "PA-451210-BM-04",
+      "comet-pcf:version": "rev04",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-08-31",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-839423ab5e9d-rev04",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Fittings for Single-Stack Drainage System\uff08intermediate goods\uff09",
+      "comet-pcf:pcrNumber": "PA-459000-BN-04",
+      "comet-pcf:version": "rev04",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-08-31",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-b5d368b6035a-rev03",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Non-glutinous Rice",
+      "comet-pcf:pcrNumber": "PA-691000-BQ-03",
+      "comet-pcf:version": "rev03",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-08-31",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-d1ffbef3c850-rev03",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Decorative laminates",
+      "comet-pcf:pcrNumber": "PA-123631-BR-03",
+      "comet-pcf:version": "rev03",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-08-31",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-1c4845e5ca99-rev03",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Flat glass",
+      "comet-pcf:pcrNumber": "PA-171100-BS-03",
+      "comet-pcf:version": "rev03",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-08-31",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-bc7418b57e74-rev02",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Processed glass",
+      "comet-pcf:pcrNumber": "PA-171190-BW-02",
+      "comet-pcf:version": "rev02",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-08-31",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-aac5f4479ff3-rev03",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Ground Improvement and Ground Reinforcement Works",
+      "comet-pcf:pcrNumber": "PA-241000-BX-03",
+      "comet-pcf:version": "rev03",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-08-31",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-b06130a359d0-rev02",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Ready\u2010mixed Concrete",
+      "comet-pcf:pcrNumber": "PA-172210-BY-02",
+      "comet-pcf:version": "rev02",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-08-31",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-95136a566e5c-rev03",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "titanium products",
+      "comet-pcf:pcrNumber": "PA-201590-BZ-03",
+      "comet-pcf:version": "rev03",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-08-31",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-89ee83081efc-rev04",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "IT equipments",
+      "comet-pcf:pcrNumber": "PA-520000-BF-04",
+      "comet-pcf:version": "rev04",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-08-14",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-f7a24f258a89-rev01",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Resilient floor coverings",
+      "comet-pcf:pcrNumber": "PA-242200-CC-01",
+      "comet-pcf:version": "rev01",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-07-20",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-9fe5493cb581-rev01",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Product Category Rule for\n\u201cPanels of wall or ceiling for bathroom (except units for building)\u201d",
+      "comet-pcf:pcrNumber": "PA-242100-CB-01",
+      "comet-pcf:version": "rev01",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-06-05",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-f8a8150a0b12-rev09",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Building(frame and finishing materials)",
+      "comet-pcf:pcrNumber": "PA-241000-AA-09",
+      "comet-pcf:version": "rev09",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-05-09",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-5b457a6c1df7-rev05",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Fluoro resin paints",
+      "comet-pcf:pcrNumber": "PA-166413-AB-05",
+      "comet-pcf:version": "rev05",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-05-09",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-168800cee6de-rev06",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Gypsum Boards\uff08intermediate goods\uff09",
+      "comet-pcf:pcrNumber": "PA-178200-AC-06",
+      "comet-pcf:version": "rev06",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-05-09",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-1b909d0a75ef-rev05",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Windows",
+      "comet-pcf:pcrNumber": "PA-212300-AD-05",
+      "comet-pcf:version": "rev05",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-05-09",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-0f6a71e56a60-rev05",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Tableware",
+      "comet-pcf:pcrNumber": "PA-773000-AE-05",
+      "comet-pcf:version": "rev05",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-05-09",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-1e8f8e64e25f-rev06",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Plastic Containers\uff08reusable\uff09",
+      "comet-pcf:pcrNumber": "PA-253000-AF-06",
+      "comet-pcf:version": "rev06",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-05-09",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-1ec64e983c37-rev07",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Raised floor",
+      "comet-pcf:pcrNumber": "PA-242159-AG-07",
+      "comet-pcf:version": "rev07",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-05-09",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-da7095dad19d-rev05",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Soft Drinks",
+      "comet-pcf:pcrNumber": "PA-761200-AH-05",
+      "comet-pcf:version": "rev05",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-05-09",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-97bcd23aaefe-rev05",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Elevator",
+      "comet-pcf:pcrNumber": "PA-355110-AK-05",
+      "comet-pcf:version": "rev05",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-05-09",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-6f58f433fdac-rev05",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Tires",
+      "comet-pcf:pcrNumber": "PA-111000-AL-05",
+      "comet-pcf:version": "rev05",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-05-09",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-74298b5344ea-rev07",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Wood\u3000Products",
+      "comet-pcf:pcrNumber": "PA-120000-AM-07",
+      "comet-pcf:version": "rev07",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-05-09",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-ce6c6de66670-rev05",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Tile carpet",
+      "comet-pcf:pcrNumber": "PA-821000-AN-05",
+      "comet-pcf:version": "rev05",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-05-09",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-6bcf4865bbe3-rev06",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Commercial printings & Security printing products",
+      "comet-pcf:pcrNumber": "PA-923000-AO-06",
+      "comet-pcf:version": "rev06",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-05-09",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-4f9530b2e5b9-rev05",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Plastic Containers and Packaging",
+      "comet-pcf:pcrNumber": "PA-253000-AP-05",
+      "comet-pcf:version": "rev05",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-05-09",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-515c35ba7377-rev05",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Trade-in Service",
+      "comet-pcf:pcrNumber": "PA-959900-AQ-05",
+      "comet-pcf:version": "rev05",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-05-09",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-9d1cb312edf8-rev05",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Pre-Sensitized plates for lithographic printing",
+      "comet-pcf:pcrNumber": "PA-937192-AR-05",
+      "comet-pcf:version": "rev05",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-05-09",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-c767ef33e5fc-rev05",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Printing Ink (Intermediate goods\uff09",
+      "comet-pcf:pcrNumber": "PA-169040-AS-05",
+      "comet-pcf:version": "rev05",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-05-09",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-c2a12449816b-rev05",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Stationery Products\u30fbOffice Supplies",
+      "comet-pcf:pcrNumber": "PA-930000-AT-05",
+      "comet-pcf:version": "rev05",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-05-09",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-e0535515a126-rev05",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Heat Insulator of Cellulose Fiber for Blowing",
+      "comet-pcf:pcrNumber": "PA-249000-AU-05",
+      "comet-pcf:version": "rev05",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-05-09",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-d5558b97fe44-rev05",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Watch",
+      "comet-pcf:pcrNumber": "PA-641111-AV-05",
+      "comet-pcf:version": "rev05",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-05-09",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-b4d78c5f5393-rev05",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Curtain rails, shades and blinds",
+      "comet-pcf:pcrNumber": "PA-856100-AZ-05",
+      "comet-pcf:version": "rev05",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-05-09",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-2c47f3621c90-rev01",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "wood\u2013plastic composite",
+      "comet-pcf:pcrNumber": "PA-249000-CA-01",
+      "comet-pcf:version": "rev01",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-05-07",
+      "pcrbase:hasRequirement": []
+    },
+    {
+      "@id": "pcrbase:sumpo-ee0b1882e6c4-rev03",
+      "@type": "comet-pcf:PCRDocument",
+      "dcterms:title": "Wood, Wood Materials",
+      "comet-pcf:pcrNumber": "PA-120000-BC-03",
+      "comet-pcf:version": "rev03",
+      "comet-pcf:scopeCPC": null,
+      "comet-pcf:validUntil": "2028-01-05",
+      "pcrbase:hasRequirement": []
+    },
+    {
       "@id": "pcrbase:environdec-07a716401945-3_0",
       "@type": "comet-pcf:PCRDocument",
       "dcterms:title": "Professional cleaning services for buildings (version 3.0)",

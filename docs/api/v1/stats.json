@@ -1,35 +1,35 @@
 {
   "total_pcrs": 366,
   "total_pdfs": 323,
-  "total_requirements": 4409,
+  "total_requirements": 4494,
   "total_operators": 8,
   "by_method": {
     "EN15804": 45,
-    "ISO14067": 299,
-    "PEF": 22
+    "PEF": 22,
+    "ISO14067": 299
   },
   "by_type": {
-    "pefcr": 22,
-    "cpcr": 60,
-    "subpcr": 4,
     "pcr": 279,
-    "epd": 1
+    "epd": 1,
+    "cpcr": 60,
+    "pefcr": 22,
+    "subpcr": 4
   },
   "by_operator": {
     "environdec": 227,
     "sumpo": 76,
-    "eu-ef": 22,
     "epd-norge": 22,
+    "eu-ef": 22,
     "us-epd": 12,
     "bre": 3,
     "epdhub": 2,
     "ibu": 2
   },
   "comet_mapping": {
-    "lossy": 6,
-    "exact": 100,
     "unmapped": 187,
+    "exact": 100,
+    "lossy": 6,
     "extended": 147
   },
-  "generated_at": "2026-06-29T15:02:41.029039+00:00"
+  "generated_at": "2026-06-29T15:48:52.960011+00:00"
 }

@@ -51,6 +51,8 @@ def main():
                     os.path.join(os.path.dirname(__file__),"../docs/dashboard.html"))
     if cmd in ("api", "all"):
         import generate_static_api; generate_static_api.run()
+    if cmd in ("migrate", "all"):
+        import migrate_multilingual; migrate_multilingual.run()
     if cmd in ("status", "all"):
         import status; status.main()
 

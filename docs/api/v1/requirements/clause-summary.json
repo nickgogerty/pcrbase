@@ -1,49 +1,49 @@
 [
   {
     "clause_group": "id",
-    "count": 2221,
+    "count": 2274,
     "top_keys": [
       {
         "clause_key": "id.standard_basis",
-        "count": 242
+        "count": 243
       },
       {
         "clause_key": "id.version",
-        "count": 241
+        "count": 242
       },
       {
         "clause_key": "id.valid_until",
-        "count": 238
+        "count": 239
       },
       {
         "clause_key": "id.program",
-        "count": 226
+        "count": 237
       },
       {
-        "clause_key": "id.pub_date",
-        "count": 223
+        "clause_key": "id.pcr_number",
+        "count": 231
       }
     ]
   },
   {
     "clause_group": "scope",
-    "count": 615,
+    "count": 632,
     "top_keys": [
       {
         "clause_key": "scope.product_category",
-        "count": 226
+        "count": 239
       },
       {
         "clause_key": "scope.inclusions",
-        "count": 182
+        "count": 183
       },
       {
         "clause_key": "scope.exclusions",
-        "count": 109
+        "count": 111
       },
       {
         "clause_key": "scope.target_audience",
-        "count": 34
+        "count": 35
       },
       {
         "clause_key": "scope.comparability",
@@ -53,15 +53,15 @@
   },
   {
     "clause_group": "boundary",
-    "count": 347,
+    "count": 349,
     "top_keys": [
       {
         "clause_key": "boundary.type",
-        "count": 171
+        "count": 172
       },
       {
         "clause_key": "boundary.modules_declared",
-        "count": 91
+        "count": 92
       },
       {
         "clause_key": "boundary.cut_off_desc",
@@ -75,33 +75,33 @@
   },
   {
     "clause_group": "unit",
-    "count": 339,
+    "count": 341,
     "top_keys": [
       {
         "clause_key": "unit.type",
-        "count": 161
+        "count": 162
       },
       {
         "clause_key": "unit.value",
-        "count": 132
+        "count": 133
       },
       {
         "clause_key": "unit.reference_flow",
         "count": 36
       },
       {
-        "clause_key": "unit.mass_reference",
+        "clause_key": "unit.conversion",
         "count": 5
       },
       {
-        "clause_key": "unit.conversion",
+        "clause_key": "unit.mass_reference",
         "count": 5
       }
     ]
   },
   {
     "clause_group": "report",
-    "count": 287,
+    "count": 289,
     "top_keys": [
       {
         "clause_key": "report.validity_period",
@@ -109,7 +109,7 @@
       },
       {
         "clause_key": "report.verification_type",
-        "count": 78
+        "count": 79
       },
       {
         "clause_key": "report.review_panel",
@@ -117,7 +117,7 @@
       },
       {
         "clause_key": "report.layout",
-        "count": 27
+        "count": 28
       },
       {
         "clause_key": "report.digital_format",
@@ -127,11 +127,11 @@
   },
   {
     "clause_group": "dq",
-    "count": 102,
+    "count": 104,
     "top_keys": [
       {
         "clause_key": "dq.primary_share",
-        "count": 42
+        "count": 43
       },
       {
         "clause_key": "dq.scoring",
@@ -143,7 +143,7 @@
       },
       {
         "clause_key": "dq.temporal",
-        "count": 5
+        "count": 6
       },
       {
         "clause_key": "dq.geographical",
@@ -153,7 +153,7 @@
   },
   {
     "clause_group": "scenario",
-    "count": 94,
+    "count": 96,
     "top_keys": [
       {
         "clause_key": "scenario.rsl",
@@ -161,7 +161,7 @@
       },
       {
         "clause_key": "scenario.eol",
-        "count": 10
+        "count": 11
       },
       {
         "clause_key": "scenario.use",
@@ -169,21 +169,21 @@
       },
       {
         "clause_key": "scenario.transport",
-        "count": 5
+        "count": 6
       }
     ]
   },
   {
     "clause_group": "lcia",
-    "count": 93,
+    "count": 95,
     "top_keys": [
       {
         "clause_key": "lcia.indicator_set",
-        "count": 51
+        "count": 52
       },
       {
         "clause_key": "lcia.biogenic",
-        "count": 20
+        "count": 21
       },
       {
         "clause_key": "lcia.ef_indicators",
@@ -216,22 +216,22 @@
         "count": 18
       },
       {
-        "clause_key": "modules.B1B7",
+        "clause_key": "modules.D",
         "count": 16
       },
       {
-        "clause_key": "modules.D",
+        "clause_key": "modules.B1B7",
         "count": 16
       }
     ]
   },
   {
     "clause_group": "content",
-    "count": 77,
+    "count": 78,
     "top_keys": [
       {
         "clause_key": "content.declaration",
-        "count": 34
+        "count": 35
       },
       {
         "clause_key": "content.substances",
@@ -249,11 +249,11 @@
   },
   {
     "clause_group": "alloc",
-    "count": 70,
+    "count": 71,
     "top_keys": [
       {
         "clause_key": "alloc.coproduct",
-        "count": 37
+        "count": 38
       },
       {
         "clause_key": "alloc.recycling",
@@ -271,11 +271,11 @@
   },
   {
     "clause_group": "cutoff",
-    "count": 69,
+    "count": 70,
     "top_keys": [
       {
         "clause_key": "cutoff.mass",
-        "count": 46
+        "count": 47
       },
       {
         "clause_key": "cutoff.completeness",
