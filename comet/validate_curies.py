@@ -1,9 +1,8 @@
 #!/usr/bin/env python3
 """Python reference validator — checks COMET CURIEs against the shared registry.
 
-VENDORED from CarbonSigProductHub/comet-carbonsig (tools/validate_curies.py).
-Do not edit here — run `python comet/sync_registry.py` to refresh this file and
-comet-registry.json. The source of truth is comet-carbonsig.
+Consumed by CarbonSigProductHub/pcrbase. Vendor `registry/comet-curies.json`
+into the consumer (or point --registry at it) and call `validate_curies(...)`.
 
 A CURIE is valid if it is an exact member of the registry, or (when
 allow_property_base=True) its class base — the part before the first '.' in the
@@ -26,7 +25,12 @@ DEFAULT_REGISTRY = Path(__file__).resolve().parent / "comet-registry.json"
 def load_registry(path: Path | None = None) -> set[str]:
     p = path or DEFAULT_REGISTRY
     data = json.loads(Path(p).read_text())
-    return set(data["comet_published"]) | set(data["comet_pcr_pending"])
+    # Include all extension pending lists (comet_pcr_pending, comet_pj_pending, etc.)
+    allow: set[str] = set(data["comet_published"]) | set(data["comet_pcr_pending"])
+    for key, val in data.items():
+        if key.endswith("_pending") and isinstance(val, list):
+            allow.update(val)
+    return allow
 
 
 def class_base(curie: str) -> str:
