@@ -937,6 +937,20 @@
     "access_status": "ingested",
     "retrieved_at": "2026-06-18 09:56:42.427705"
   },
+  "environdec-3e25ee30d690-v0": {
+    "pcr_id": "environdec-3e25ee30d690",
+    "operator_id": "environdec",
+    "title": "Steel, iron and aluminium structural products, and other metal products, for use in construction works (prEN 17662)",
+    "method_family": "ISO14067",
+    "version_id": "environdec-3e25ee30d690-v0",
+    "version_label": null,
+    "valid_from": null,
+    "valid_until": null,
+    "content_hash": null,
+    "source_url": "https://www.environdec.com/pcr-library/pcr_4337c5d7-df16-4c5d-b2f6-1538bc5c1a75",
+    "access_status": "failed",
+    "retrieved_at": "2026-07-03 08:08:21.903508"
+  },
   "environdec-41363df3e7d9-v0": {
     "pcr_id": "environdec-41363df3e7d9",
     "operator_id": "environdec",
@@ -2169,6 +2183,20 @@
     "access_status": "ingested",
     "retrieved_at": "2026-06-18 09:56:30.230898"
   },
+  "environdec-aba4abc390c9-v0": {
+    "pcr_id": "environdec-aba4abc390c9",
+    "operator_id": "environdec",
+    "title": "Wood flooring including parquet (EN standard)",
+    "method_family": "ISO14067",
+    "version_id": "environdec-aba4abc390c9-v0",
+    "version_label": null,
+    "valid_from": null,
+    "valid_until": null,
+    "content_hash": null,
+    "source_url": "https://www.environdec.com/pcr-library/pcr_08761a9c-77e3-4ce7-8743-08fd0c7cbd77",
+    "access_status": "failed",
+    "retrieved_at": "2026-07-03 08:08:14.102691"
+  },
   "environdec-b00944bf9710-1_0_0": {
     "pcr_id": "environdec-b00944bf9710",
     "operator_id": "environdec",
@@ -2280,6 +2308,20 @@
     "source_url": "https://www.environdec.com/pcr-library/pcr_9407ff78-6aaf-4bd1-0742-08de0257a896",
     "access_status": "failed",
     "retrieved_at": "2026-06-18 09:59:34.472087"
+  },
+  "environdec-b75c6a9e2bbb-1_0_1": {
+    "pcr_id": "environdec-b75c6a9e2bbb",
+    "operator_id": "environdec",
+    "title": "Curtain walling (EN 18001)",
+    "method_family": "ISO14067",
+    "version_id": "environdec-b75c6a9e2bbb-1_0_1",
+    "version_label": "1.0.1",
+    "valid_from": null,
+    "valid_until": "2030-04-07",
+    "content_hash": "4a123cb25ecbd1dabf82a54da73564efb8cf638b7e3647b2dd71cc9f804088a8",
+    "source_url": "https://www.environdec.com/pcr-library/pcr_9a167a8d-2903-4e62-3cba-08db61a7104d",
+    "access_status": "ingested",
+    "retrieved_at": "2026-07-03 08:08:30.309198"
   },
   "environdec-b786abedc388-2_0_0": {
     "pcr_id": "environdec-b786abedc388",
@@ -2994,6 +3036,20 @@
     "source_url": "https://www.environdec.com/pcr-library/pcr_e923a0c7-2cf4-46c7-7446-08da1bbfb88b",
     "access_status": "failed",
     "retrieved_at": "2026-06-18 10:00:16.316834"
+  },
+  "environdec-e968ff033be0-1_0_0": {
+    "pcr_id": "environdec-e968ff033be0",
+    "operator_id": "environdec",
+    "title": "Plastics piping system buried outside the building structure (EN 16903)",
+    "method_family": "ISO14067",
+    "version_id": "environdec-e968ff033be0-1_0_0",
+    "version_label": "1.0.0",
+    "valid_from": null,
+    "valid_until": "2030-04-07",
+    "content_hash": "233a6205470aea108257438bb532821640688b0de0a468da21ae2e7c31f1c3f5",
+    "source_url": "https://www.environdec.com/pcr-library/pcr_5251a13c-5a60-40aa-9b01-0904d7d23892",
+    "access_status": "ingested",
+    "retrieved_at": "2026-07-03 08:08:23.554733"
   },
   "environdec-ec5c812f7204-4_0_0": {
     "pcr_id": "environdec-ec5c812f7204",
